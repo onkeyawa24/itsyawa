@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,14 +33,14 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <a
-            href="#hero"
+          <Link
+            to="/"
             className="text-xl font-bold text-theme-blue flex items-center gap-2"
           >
             <span className="text-theme-accent">&lt;</span>
             DevName
             <span className="text-theme-accent">/&gt;</span>
-          </a>
+          </Link>
 
           {/* Mobile menu button */}
           <button
@@ -89,22 +90,43 @@ const NavLinks = ({
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
     { href: "#skills", label: "Skills" },
+    { to: "/education", label: "Education" }
   ];
 
-  return links.map((link) => (
-    <a
-      key={link.href}
-      href={link.href}
-      className={`${
-        mobile
-          ? "text-theme-blue text-lg py-2 border-b border-gray-100"
-          : "text-theme-blue hover:text-theme-accent transition-colors"
-      }`}
-      onClick={() => mobile && setIsMenuOpen(false)}
-    >
-      {link.label}
-    </a>
-  ));
+  return links.map((link) => {
+    // Create either a regular anchor tag or a React Router Link based on if 'to' property exists
+    if ('to' in link) {
+      return (
+        <Link
+          key={link.to}
+          to={link.to}
+          className={`${
+            mobile
+              ? "text-theme-blue text-lg py-2 border-b border-gray-100"
+              : "text-theme-blue hover:text-theme-accent transition-colors"
+          }`}
+          onClick={() => mobile && setIsMenuOpen(false)}
+        >
+          {link.label}
+        </Link>
+      );
+    }
+    
+    return (
+      <a
+        key={link.href}
+        href={link.href}
+        className={`${
+          mobile
+            ? "text-theme-blue text-lg py-2 border-b border-gray-100"
+            : "text-theme-blue hover:text-theme-accent transition-colors"
+        }`}
+        onClick={() => mobile && setIsMenuOpen(false)}
+      >
+        {link.label}
+      </a>
+    );
+  });
 };
 
 export default Navbar;
