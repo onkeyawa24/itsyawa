@@ -38,7 +38,7 @@ const Navbar = () => {
             className="text-xl font-bold text-theme-blue flex items-center gap-2"
           >
             <span className="text-theme-accent">&lt;</span>
-            DevName
+            itsyawa
             <span className="text-theme-accent">/&gt;</span>
           </Link>
 
