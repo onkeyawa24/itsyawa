@@ -89,10 +89,10 @@ const toolsSkills = [
 ];
 
 const learningSkills = [
-  { name: "Node.js", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">N</div> },
-  { name: "Express", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">E</div> },
-  { name: "MongoDB", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">M</div> },
-  { name: "NextJS", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">NX</div> },
+  { name: "Node.js", level: "Learning", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">N</div> },
+  { name: "Express", level: "Learning", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">E</div> },
+  { name: "MongoDB", level: "Learning", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">M</div> },
+  { name: "NextJS", level: "Learning", icon: <div className="w-6 h-6 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold text-xs">NX</div> },
 ];
 
 export default Skills;

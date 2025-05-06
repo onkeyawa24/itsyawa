@@ -64,7 +64,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white px-4 pt-4 pb-6 shadow-md animate-fade-in">
           <nav className="flex flex-col gap-4">
-            <NavLinks mobile setIsMenuOpen={setIsMenuOpen} />
+            <NavLinks mobile setIsMenuOpen={(value) => setIsMenuOpen(value)} />
             <Button asChild>
               <a href="#contact" onClick={() => setIsMenuOpen(false)}>
                 Get in Touch
@@ -77,7 +77,14 @@ const Navbar = () => {
   );
 };
 
-const NavLinks = ({ mobile = false, setIsMenuOpen = () => {} }) => {
+// Update the NavLinks component to correctly handle the setIsMenuOpen function
+const NavLinks = ({ 
+  mobile = false, 
+  setIsMenuOpen = () => {} 
+}: { 
+  mobile?: boolean; 
+  setIsMenuOpen?: (value: boolean) => void 
+}) => {
   const links = [
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
