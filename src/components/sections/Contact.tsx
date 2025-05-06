@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
-import { Github, Linkedin, Mail, MessageSquare } from "lucide-react";
+import { Github, Linkedin, Mail, MessageSquare, Twitter } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -75,12 +75,20 @@ const Contact = () => {
                         <Github size={20} />
                       </a>
                       <a 
-                        href="https://linkedin.com/in/yourusername" 
+                        href="https://www.linkedin.com/in/onke-yawa" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="hover:text-theme-accent transition-colors"
                       >
                         <Linkedin size={20} />
+                      </a>
+                      <a 
+                        href="https://www.x.com/onkeyawa" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-theme-accent transition-colors"
+                      >
+                        <Twitter size={20} />
                       </a>
                     </div>
                   </div>
