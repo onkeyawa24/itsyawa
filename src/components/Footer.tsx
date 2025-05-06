@@ -9,11 +9,11 @@ const Footer = () => {
           <div>
             <a href="#" className="text-xl font-bold flex items-center gap-2">
               <span className="text-theme-accent">&lt;</span>
-              DevName
+              itsyawa
               <span className="text-theme-accent">/&gt;</span>
             </a>
             <p className="text-sm text-gray-400 mt-2">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Onke Yawa. All rights reserved.
             </p>
           </div>
           
