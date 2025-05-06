@@ -67,7 +67,7 @@ const Contact = () => {
                     <h3 className="font-medium">Social Media</h3>
                     <div className="flex gap-4 mt-2">
                       <a 
-                        href="https://github.com/yourusername" 
+                        href="https://github.com/onkeyawa24" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="hover:text-theme-accent transition-colors"
