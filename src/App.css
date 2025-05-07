@@ -1,8 +1,11 @@
+
+/* Remove root max-width and padding that could be interfering with full-width background */
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  max-width: none;
+  padding: 0;
+  width: 100%;
 }
 
 .logo {
