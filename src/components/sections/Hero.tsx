@@ -5,6 +5,14 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center relative">
+      {/* Background image */}
+      <div 
+        className="absolute top-0 left-0 w-full h-[45vh] bg-cover bg-center bg-no-repeat -z-20"
+        style={{ backgroundImage: 'url("/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png")' }}
+      />
+      {/* Overlay for dimming the image */}
+      <div className="absolute top-0 left-0 w-full h-[45vh] bg-theme-blue/40 -z-10" />
+      
       <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%]" />
       
       <div className="section-container">
