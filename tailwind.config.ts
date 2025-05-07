@@ -23,7 +23,8 @@ export default {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
-				background: 'red',
+				backgroundImage: 'url("/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png")',
+				/* background: 'red', */
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
@@ -58,7 +59,7 @@ export default {
 					'blue': '#1d3557',
 					'accent': '#06d6a0',
 					'light-blue': '#457b9d',
-					'bg': 'green',
+					'bg': '#f1faee',
 					'highlight': '#a8dadc'
 				}
 			},
