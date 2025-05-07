@@ -1,6 +1,7 @@
 
 /* Remove root max-width and padding that could be interfering with full-width background */
 #root {
+  background-color: red;
   margin: 0 auto;
   text-align: center;
   max-width: none;
