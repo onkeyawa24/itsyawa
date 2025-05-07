@@ -21,7 +21,7 @@ const About = () => {
                 turned into a passion for building things that live on the internet.
               </p>
               <p className="text-gray-700 mb-4">
-                With a background in [your background], I bring a unique perspective 
+                With a background in computer science, I bring a unique perspective 
                 to development projects. I believe in writing clean, maintainable code 
                 and staying on top of modern web development practices.
               </p>
@@ -41,7 +41,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Education</h4>
                     <p className="text-sm text-gray-600">
-                      B.S. in Computer Science (or your degree)
+                      B.S. in Computer Science
                     </p>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Experience</h4>
                     <p className="text-sm text-gray-600">
-                      [Your experience] or Bootcamp Graduate
+                      Web Development Intern
                     </p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Always Learning</h4>
                     <p className="text-sm text-gray-600">
-                      Currently improving my skills in [technologies]
+                      Currently improving my skills in React and TypeScript
                     </p>
                   </div>
                 </div>

@@ -13,7 +13,7 @@ const Hero = () => {
             👋 Hi there! I'm
           </p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="title-highlight">Your Name</span>
+            <span className="title-highlight">Onke Yawa</span>
           </h1>
           <h2 className="text-3xl md:text-5xl font-bold text-theme-light-blue mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Junior Web Developer
