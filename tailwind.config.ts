@@ -93,6 +93,12 @@ export default {
 					'100%': { opacity: '1', transform: 'translateY(0)' }
 				}
 			},
+			backgroundImage: {
+				'hero-pattern': "url('/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png')",
+			    'backgroundSize': 'cover',
+			'backgroundPosition': 'center center',
+			'height': '45vh'
+			  }
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
