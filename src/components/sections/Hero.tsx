@@ -5,18 +5,18 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center relative">
-      {/* Background image with improved styling */}
+      {/* Background image with fixed styling to ensure visibility */}
       <div 
-        className="absolute top-0 left-0 w-full h-[45vh] md:h-[45vh] bg-cover bg-center bg-no-repeat -z-20"
+        className="absolute inset-0 w-full h-full md:h-full bg-cover bg-center bg-no-repeat -z-20"
         style={{ 
           backgroundImage: 'url("/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png")',
           backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          height: '45vh'
         }}
       />
-      {/* Overlay for dimming the image with adjusted opacity */}
-      <div className="absolute top-0 left-0 w-full h-[45vh] md:h-[45vh] bg-black/30 -z-10" />
-      
-      {/* Removed the conflicting background div that was here */}
+      {/* Overlay for dimming the image */}
+      <div className="absolute inset-0 w-full bg-black/40 -z-10" style={{ height: '45vh' }} />
       
       <div className="section-container">
         <div className="max-w-4xl">
