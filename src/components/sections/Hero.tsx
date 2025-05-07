@@ -11,9 +11,9 @@ const Hero = () => {
         style={{ backgroundImage: 'url("/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png")' }}
       />
       {/* Overlay for dimming the image */}
-      <div className="absolute top-0 left-0 w-full h-[45vh] bg-theme-blue/40 -z-10" />
+      <div className="absolute top-0 left-0 w-full h-[45vh] bg-black/30 -z-10" />
       
-      <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%]" />
+      {/* Removed the conflicting background div that was here */}
       
       <div className="section-container">
         <div className="max-w-4xl">
