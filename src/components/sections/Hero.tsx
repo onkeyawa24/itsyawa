@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center relative">
+    <section id="hero" className="bg-[url('/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png')] bg-cover bg-center h-64 w-full">
       {/* Background image using Tailwind class */}
       <div 
         className="absolute inset-0 w-full h-full bg-hero-pattern bg-cover bg-center bg-no-repeat -z-20"
