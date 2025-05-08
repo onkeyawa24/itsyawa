@@ -8,16 +8,16 @@ const Hero = () => {
       <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%]" />
       <div className="section-container">
         <div className="max-w-4xl">
-          <p className="text-white font-medium mb-4 animate-fade-up">
+          <p className="text-foreground font-medium mb-4 animate-fade-up">
             👋 Hi there! I'm
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
             <span className="title-highlight">Onke Yawa</span>
           </h1>
           <h2 className="text-3xl md:text-5xl font-bold text-theme-highlight mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Junior Web Developer
           </h2>
-          <p className="text-lg text-white/80 max-w-2xl mb-10 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+          <p className="text-lg text-foreground/80 max-w-2xl mb-10 animate-fade-up" style={{ animationDelay: "0.3s" }}>
             I build responsive, accessible web applications with modern 
             technologies. Currently focused on React, TypeScript, and 
             building beautiful user interfaces.
@@ -39,7 +39,7 @@ const Hero = () => {
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce"
         aria-label="Scroll down"
       >
-        <ArrowDown className="text-white" />
+        <ArrowDown className="text-foreground" />
       </a>
     </section>
   );
