@@ -5,18 +5,12 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center relative">
-      {/* Background image with fixed styling to ensure visibility */}
+      {/* Background image using Tailwind class */}
       <div 
-        className="absolute inset-0 w-full h-full md:h-full bg-cover bg-center bg-no-repeat -z-20"
-        style={{ 
-          backgroundImage: 'url("/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center center',
-          height: '45vh'
-        }}
+        className="absolute inset-0 w-full h-screen bg-hero-pattern bg-cover bg-center bg-no-repeat -z-20"
       />
       {/* Overlay for dimming the image */}
-      <div className="absolute inset-0 w-full bg-black/40 -z-10" style={{ height: '45vh' }} />
+      <div className="absolute inset-0 w-full h-screen bg-black/40 -z-10" />
       
       <div className="section-container">
         <div className="max-w-4xl">

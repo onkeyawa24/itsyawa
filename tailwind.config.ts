@@ -94,11 +94,8 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'hero-pattern': "url('/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png')",
-			    'backgroundSize': 'cover',
-			'backgroundPosition': 'center center',
-			'height': '45vh'
-			  }
+				'hero-pattern': "url('/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png')"
+			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
