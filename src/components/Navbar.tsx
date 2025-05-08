@@ -90,7 +90,7 @@ const NavLinks = ({
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
     { href: "#skills", label: "Skills" },
-    { to: "/education", label: "Education" }
+    { href: "#education", label: "Education" }
   ];
 
   return links.map((link) => {

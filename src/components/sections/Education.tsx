@@ -15,7 +15,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Education = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div id="education" className="min-h-screen bg-background">
       <Navbar />
       <main>
         <section className="pt-28 pb-16 bg-white">
