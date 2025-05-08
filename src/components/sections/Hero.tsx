@@ -4,14 +4,14 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="hero" className="bg-[url('/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png')] bg-cover bg-center h-64 w-full">
-      {/* Background image using Tailwind class */}
-      <div 
-        className="absolute inset-0 w-full h-full bg-hero-pattern bg-cover bg-center bg-no-repeat -z-20"
+    <section id="hero"  className="absolute inset-0 w-full h-full md:h-full bg-cover bg-center bg-no-repeat -z-20"
+        style={{ 
+          backgroundImage: 'url("/lovable-uploads/bbf2bbfb-37e5-4d44-b02b-27767e603d6b.png")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          height: '45vh'
+        }}
       />
-      {/* Overlay for dimming the image */}
-      <div className="absolute inset-0 w-full h-full bg-black/40 -z-10" />
-      
       <div className="section-container">
         <div className="max-w-4xl">
           <p className="text-white font-medium mb-4 animate-fade-up">
