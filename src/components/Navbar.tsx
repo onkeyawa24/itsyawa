@@ -1,29 +1,7 @@
-
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { Moon, Sun } from 'lucide-react';
-
-const Navbar = () => {
-
-   const [isDarkMode, setIsDarkMode] = useState(false);
-
-  useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-      document.documentElement.classList.add('dark');
-      setIsDarkMode(true);
-    }
-  }, []);
-
-  const toggleDarkMode = () => {
-    const newTheme = isDarkMode ? 'light' : 'dark';
-    document.documentElement.classList.toggle('dark');
-    localStorage.setItem('theme', newTheme);
-    setIsDarkMode(!isDarkMode);
-  };
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -62,7 +40,7 @@ const Navbar = () => {
             itsyawa
             <span className="text-theme-accent">/&gt;</span>
           </Link>
-          
+
           {/* Mobile menu button */}
           <button
             className="md:hidden text-theme-blue"
@@ -78,15 +56,6 @@ const Navbar = () => {
             <Button asChild>
               <a href="#contact">Get in Touch</a>
             </Button>
-             <button
-        onClick={toggleDarkMode}
-        className="flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-      >
-        {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
-        <span className="text-sm">
-          {isDarkMode ? 'Light Mode' : 'Dark Mode'}
-        </span>
-      </button>
           </nav>
         </div>
       </div>
