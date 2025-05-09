@@ -41,7 +41,7 @@ const Navbar = () => {
             itsyawa
             <span className="text-theme-accent">/&gt;</span>
           </Link>
-
+          
           {/* Mobile menu button */}
           <button
             className="md:hidden text-theme-blue"
@@ -57,6 +57,7 @@ const Navbar = () => {
             <Button asChild>
               <a href="#contact">Get in Touch</a>
             </Button>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
           </nav>
         </div>
       </div>
