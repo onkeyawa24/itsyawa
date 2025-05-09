@@ -60,12 +60,12 @@ export const onlineCourses = [
 
 export const certificates = [
   {
-    name: "AWS Certified Developer - Associate",
-    organization: "Amazon Web Services",
-    issued: "Jan 2023",
-    expires: "Jan 2026",
-    credentialId: "AWS-DEV-123456",
-    description: "Validates technical expertise in developing and maintaining AWS-based applications."
+    name: "Azure Fundamentals AZ-900",
+    organization: "Microsoft",
+    issued: "Aug 2023",
+    expires: "No expire",
+    credentialId: "63254577F11BE4F",
+    description: "Microsoft Azure cloud concepts, Azure workloads, security, privacy, pricing, and support."
   },
   {
     name: "Professional Frontend Developer",
