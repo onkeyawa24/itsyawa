@@ -94,40 +94,20 @@ const NavLinks = ({
     { href: "#education", label: "Education" }
   ];
 
-  return links.map((link) => {
-    // Create either a regular anchor tag or a React Router Link based on if 'to' property exists
-    if ('to' in link) {
-      return (
-        <Link
-          key={link.to}
-          to={link.to}
-          className={`${
-            mobile
-              ? "text-theme-blue text-lg py-2 border-b border-gray-100"
-              : "text-theme-blue hover:text-theme-accent transition-colors"
-          }`}
-          onClick={() => mobile && setIsMenuOpen(false)}
-        >
-          {link.label}
-        </Link>
-      );
-    }
-    
-    return (
-      <a
-        key={link.href}
-        href={link.href}
-        className={`${
-          mobile
-            ? "text-theme-blue text-lg py-2 border-b border-gray-100"
-            : "text-theme-blue hover:text-theme-accent transition-colors"
-        }`}
-        onClick={() => mobile && setIsMenuOpen(false)}
-      >
-        {link.label}
-      </a>
-    );
-  });
+  return links.map((link) => (
+    <a
+      key={link.href}
+      href={link.href}
+      className={`${
+        mobile
+          ? "text-theme-blue text-lg py-2 border-b border-gray-100"
+          : "text-theme-blue hover:text-theme-accent transition-colors"
+      }`}
+      onClick={() => mobile && setIsMenuOpen(false)}
+    >
+      {link.label}
+    </a>
+  ));
 };
 
 export default Navbar;
