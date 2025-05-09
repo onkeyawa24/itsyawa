@@ -6,24 +6,24 @@ import { Code, ExternalLink } from "lucide-react";
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-theme-bg">
-      <div className="section-container">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2">
+    <section id="projects" className="bg-theme-bg dark:bg-gray-800 dark:text-white">
+      <div className="section-container dark:bg-gray-800 dark:text-white">
+        <div className="max-w-5xl mx-auto dark:bg-gray-800 dark:text-white">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 dark:bg-gray-800 dark:text-white">
             <span className="title-highlight">My Projects</span>
           </h2>
           <p className="text-theme-light-blue mb-12">Some of my recent work</p>
           
-          <div className="space-y-24">
+          <div className="space-y-24 dark:bg-gray-800 dark:text-white">
             {projects.map((project, index) => (
               <div 
                 key={project.title} 
-                className={`grid md:grid-cols-12 gap-8 items-center ${
+                className={`grid md:grid-cols-12 gap-8 items-center  ${
                   index % 2 === 1 ? "md:flex-row-reverse" : ""
                 }`}
               >
                 <div className={`md:col-span-7 ${index % 2 === 1 ? "md:order-2" : ""}`}>
-                  <div className="bg-white p-2 rounded-lg shadow-lg">
+                  <div className="bg-white p-2 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
                     <img 
                       src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450" 
                       alt={project.title} 
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
                 
                 <div className={`md:col-span-5 ${index % 2 === 1 ? "md:order-1" : ""}`}>
-                  <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
+                  <h3 className="text-2xl font-bold mb-3 dark:bg-gray-800 dark:text-white">{project.title}</h3>
                   <p className="text-gray-700 mb-4">{project.description}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-6">
@@ -42,7 +42,7 @@ const Projects = () => {
                     ))}
                   </div>
                   
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 dark:bg-gray-800 dark:text-white">
                     <Button variant="outline" size="sm" asChild>
                       <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                         <ExternalLink size={16} />
@@ -61,8 +61,8 @@ const Projects = () => {
             ))}
           </div>
           
-          <div className="text-center mt-16">
-            <p className="mb-6 text-gray-700">
+          <div className="text-center mt-16 dark:bg-gray-800 dark:text-white">
+            <p className="mb-6 text-gray-700 dark:bg-gray-800 dark:text-white">
               Interested in seeing more of my work?
             </p>
             <Button asChild>
