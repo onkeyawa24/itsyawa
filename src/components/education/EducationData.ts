@@ -22,7 +22,7 @@ export const formalEducation: FormalEducation[] = [
     institution: "Manzomthombo Secondary School",
     years: "2010 - 2012",
     description: "Advanced Mathematics and Computer Science program.",
-    logoPath: "/lovable-uploads/Manzo.jpg"
+    logoPath: "/lovable-uploads/manzo.jpg"
   }
 ];
 
