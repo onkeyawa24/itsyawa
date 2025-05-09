@@ -4,7 +4,7 @@ import { User, Book, Briefcase } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white">
+    <section id="about" className="bg-white dark:bg-gray-800 dark:text-white">
       <div className="section-container">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
@@ -12,9 +12,9 @@ const About = () => {
           </h2>
           <p className="text-theme-light-blue mb-12">Get to know my story</p>
           
-          <div className="grid md:grid-cols-2 gap-8 items-start mb-12">
+          <div className="grid md:grid-cols-2 gap-8 items-start mb-12 dark:bg-gray-800 dark:text-white">
             <div>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 dark:bg-gray-800 dark:text-white">
                 I'm a passionate <strong>Junior Web Developer</strong> with a 
                 love for creating beautiful, functional websites and applications. 
                 My journey in web development began with curiosity that quickly 
@@ -32,7 +32,7 @@ const About = () => {
               </p>
             </div>
             
-            <div className="bg-theme-bg rounded-lg p-6 shadow-sm">
+            <div className="bg-theme-bg rounded-lg p-6 shadow-sm dark:bg-gray-800 dark:text-white">
               <h3 className="text-xl font-semibold mb-4">Quick Bio</h3>
               
               <div className="space-y-4">
@@ -69,7 +69,7 @@ const About = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 dark:bg-gray-800 dark:text-white">
             {highlights.map((item, index) => (
               <Card key={index} className="border-t-4 border-t-theme-accent">
                 <CardContent className="pt-6">
