@@ -40,7 +40,7 @@ const About = () => {
                   <User className="text-theme-accent mt-1" size={20} />
                   <div>
                     <h4 className="font-medium">Education</h4>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600 dark:bg-gray-800 dark:text-white">
                       B.S. in Computer Science
                     </p>
                   </div>
@@ -50,7 +50,7 @@ const About = () => {
                   <Briefcase className="text-theme-accent mt-1 dark:bg-gray-800 dark:text-white" size={20} />
                   <div>
                     <h4 className="font-medium">Experience</h4>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600 dark:bg-gray-800 dark:text-white">
                       Web Development Intern
                     </p>
                   </div>
@@ -60,7 +60,7 @@ const About = () => {
                   <Book className="text-theme-accent mt-1 dark:bg-gray-800 dark:text-white" size={20} />
                   <div>
                     <h4 className="font-medium">Always Learning</h4>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600 dark:bg-gray-800 dark:text-white">
                       Currently improving my skills in React and TypeScript
                     </p>
                   </div>
