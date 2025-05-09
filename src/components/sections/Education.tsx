@@ -7,7 +7,7 @@ import CertificatesTab from "../education/CertificatesTab";
 
 const Education = () => {
   return (
-    <section id="education" className="py-20 bg-white">
+    <section id="education" className="py-20 bg-[#dcedf1]">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
