@@ -100,9 +100,6 @@ const Navbar = () => {
         className="flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
       >
         {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
-        <span className="text-sm">
-          {isDarkMode ? 'Light Mode' : 'Dark Mode'}
-        </span>
       </button>
           </nav>
         </div>
