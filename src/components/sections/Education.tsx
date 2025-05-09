@@ -183,14 +183,14 @@ interface FormalEducation {
 const formalEducation: FormalEducation[] = [
   {
     degree: "BSc Computer Science",
-    institution: "University of Technology",
-    years: "2019 - 2023",
+    institution: "Walter Sisulu University",
+    years: "2016 - 2019",
     description: "Specialized in web development and artificial intelligence."
   },
   {
-    degree: "High School Diploma",
-    institution: "Tech High School",
-    years: "2015 - 2019",
+    degree: "National Senior Certificate",
+    institution: "Manzomthombo Secondary School",
+    years: "2010 - 2012",
     description: "Advanced Mathematics and Computer Science program."
   }
 ];
