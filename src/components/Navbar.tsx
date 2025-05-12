@@ -127,8 +127,8 @@ const NavLinks = ({
       href={link.href}
       className={`${
         mobile
-          ? "text-theme-blue text-lg py-2 border-b border-gray-100 "
-          : "text-theme-blue hover:text-theme-accent transition-colors bg-gray-800"
+          ? "text-theme-blue text-lg py-2 border-b border-gray-100"
+          : "text-theme-blue hover:text-theme-accent transition-colors"
       }`}
       onClick={() => mobile && setIsMenuOpen(false)}
     >
