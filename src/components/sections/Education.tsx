@@ -17,7 +17,7 @@ const Education = () => {
 
           <Tabs defaultValue="formal" className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-8 dark:bg-gray-800">
-              <TabsTrigger value="formal" className="flex items-center gap-2 backgroundColor: #ccdcdc dark:bg-gray-900 dark:text-white">
+              <TabsTrigger value="formal" className="flex items-center gap-2 dark:bg-gray-900 dark:text-white" style={{ backgroundColor: "#ccdcdc" }}>
                 <GraduationCap className="h-4 w-4" />
                 <span className="hidden sm:inline">Formal Education</span>
                 <span className="sm:hidden">Formal</span>
