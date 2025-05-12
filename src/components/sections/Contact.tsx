@@ -60,8 +60,8 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-theme-blue text-white  bg-gray-900 dark:text-white">
-      <div className="section-container  bg-gray-900 dark:text-white">
+    <section id="contact" className="bg-theme-blue text-white  ">
+      <div className="section-container  ">
         <div className="max-w-5xl mx-auto  ">
           <div className="grid md:grid-cols-2 gap-12  ">
             <div>
@@ -172,7 +172,7 @@ const Contact = () => {
                   <Button 
                     type="submit" 
                     disabled={isSubmitting}
-                    className="w-full bg-theme-accent hover:bg-theme-accent/90 text-theme-blue bg-gray-700 dark:text-white"
+                    className="w-full bg-theme-accent hover:bg-theme-accent/90 text-theme-blue"
                   >
                     {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
