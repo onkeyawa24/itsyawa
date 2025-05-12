@@ -15,20 +15,20 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8 items-start mb-12 ">
             <div>
               <p className="text-gray-700 mb-4 ">
-                I'm a passionate <strong>Junior Web Developer</strong> with a 
-                love for creating beautiful, functional websites and applications. 
-                My journey in web development began with curiosity that quickly 
-                turned into a passion for building things that live on the internet.
+                I'm Onke Yawa, a passionate softawre developer with a strong foundation in computer science 
+                and a growing footprint in cloud technology and IT support. 
+                With a Bachelor of Science degree in Computer Science from Walter Sisulu University 
+                and certifications in Microsoft Azure Fundamentals and Administration, 
+                I've built a career that bridges development, data management, and infrastructure. 
               </p>
               <p className="text-gray-700 mb-4 ">
-                With a background in computer science, I bring a unique perspective 
-                to development projects. I believe in writing clean, maintainable code 
-                and staying on top of modern web development practices.
+                My experience spans web and app development, cloud migrations, and end-to-end IT support, 
+                including managing Active Directory environments, automating tasks with PowerShell, 
+                and creating impactful Power BI dashboards.
               </p>
               <p className="text-gray-700 ">
-                Currently, I'm focused on expanding my knowledge in React, TypeScript 
-                and modern JavaScript frameworks while looking for opportunities to 
-                work with a collaborative team.
+                Whether it's coding in PHP and JavaScript or fine-tuning SQL servers, 
+                I enjoy turning complex problems into practical, scalable solutions.
               </p>
             </div>
             
