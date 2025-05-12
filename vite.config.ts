@@ -11,19 +11,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   plugins: [
-    react({
-      plugins: [
-        ['@swc/plugin-react-remove-properties', {}],
-        ['@swc/plugin-transform-rename-properties', {}]
-      ],
-      jsc: {
-        transform: {
-          react: {
-            throwIfNamespace: false
-          }
-        }
-      }
-    }),
+    react(),
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
