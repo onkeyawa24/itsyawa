@@ -8,25 +8,27 @@ const About = () => {
       <div className="section-container   ">
         <div className="max-w-4xl mx-auto   ">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            <span className="title-highlight">About Me - rtrtrt</span>
+            <span className="title-highlight">About Me</span>
           </h2>
           <p className="text-theme-light-blue mb-12">Get to know my story</p>
           
           <div className="grid md:grid-cols-2 gap-8 items-start mb-12 ">
             <div>
               <p className="text-gray-700 mb-4 ">
-                I'm <strong>Onke Yawa</p>strong>, a passionate softaware developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
-                I hold a Bachelor of Science in Computer Science, along with certifications in Microsoft Azure Fundamentals and Administration. 
-                These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure.. 
+                I'm a passionate <strong>Junior Web Developer</strong> with a 
+                love for creating beautiful, functional websites and applications. 
+                My journey in web development began with curiosity that quickly 
+                turned into a passion for building things that live on the internet.
               </p>
               <p className="text-gray-700 mb-4 ">
-                My experience spans web and app development, cloud migrations, and end-to-end IT support, 
-                including managing Active Directory environments, automating tasks with PowerShell, 
-                and creating impactful Power BI dashboards.
+                With a background in computer science, I bring a unique perspective 
+                to development projects. I believe in writing clean, maintainable code 
+                and staying on top of modern web development practices.
               </p>
               <p className="text-gray-700 ">
-                Whether it's coding in PHP and JavaScript or fine-tuning SQL servers, 
-                I enjoy turning complex problems into practical, scalable solutions.
+                Currently, I'm focused on expanding my knowledge in React, TypeScript 
+                and modern JavaScript frameworks while looking for opportunities to 
+                work with a collaborative team.
               </p>
             </div>
             
@@ -39,7 +41,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Education</h4>
                     <p className="text-sm text-gray-600 ">
-                      BSc. in Computer Science
+                      B.S. in Computer Science
                     </p>
                   </div>
                 </div>
@@ -49,7 +51,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Experience</h4>
                     <p className="text-sm text-gray-600 ">
-                      2 years in Clooud Support role specialisng in Azure.
+                      Web Development Intern
                     </p>
                   </div>
                 </div>
@@ -59,7 +61,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Always Learning</h4>
                     <p className="text-sm text-gray-600 ">
-                      Currently improving my skills in Data Analysis and AI.
+                      Currently improving my skills in React and TypeScript
                     </p>
                   </div>
                 </div>
