@@ -17,17 +17,17 @@ const Education = () => {
 
           <Tabs defaultValue="formal" className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-8 dark:bg-gray-800">
-              <TabsTrigger value="formal" className="flex items-center gap-2 backgroundColor: #ccdcdc ">
+              <TabsTrigger value="formal" className="flex items-center gap-2 backgroundColor: #ccdcdc dark:bg-gray-900 dark:text-white">
                 <GraduationCap className="h-4 w-4" />
                 <span className="hidden sm:inline">Formal Education</span>
                 <span className="sm:hidden">Formal</span>
               </TabsTrigger>
-              <TabsTrigger value="courses" className="flex items-center gap-2 backgroundColor: #ccdcdc">
+              <TabsTrigger value="courses" className="flex items-center gap-2 backgroundColor: #ccdcdc dark:bg-gray-900 dark:text-white">
                 <Book className="h-4 w-4" />
                 <span className="hidden sm:inline">Online Courses</span>
                 <span className="sm:hidden">Courses</span>
               </TabsTrigger>
-              <TabsTrigger value="certificates" className="flex items-center gap-2 backgroundColor: #ccdcdc">
+              <TabsTrigger value="certificates" className="flex items-center gap-2 backgroundColor: #ccdcdc dark:bg-gray-900 dark:text-white">
                 <School className="h-4 w-4" />
                 <span className="hidden sm:inline">Certifications</span>
                 <span className="sm:hidden">Certs</span>
