@@ -5,8 +5,8 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-white dark:bg-gray-700 dark:text-white">
       <div className="section-container dark:bg-gray-800 dark:text-white">
-        <div className="max-w-5xl mx-auto dark:bg-gray-800 dark:text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2 dark:bg-gray-700 dark:text-white">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2">
             <span className="title-highlight">My Skills</span>
           </h2>
           <p className="text-theme-light-blue mb-12">Technologies I work with</p>
@@ -25,7 +25,7 @@ const Skills = () => {
             </div>
             
             <div>
-              <h3 className="text-xl font-bold mb-6 flex items-center dark:bg-gray-700 dark:text-white">
+              <h3 className="text-xl font-bold mb-6 flex items-center">
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
                 Tools & Technologies
               </h3>
@@ -42,7 +42,7 @@ const Skills = () => {
               <span className="bg-theme-accent w-10 h-1 mr-3"></span>
               Currently Learning
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-700 dark:text-white">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {learningSkills.map((skill) => (
                 <SkillCard key={skill.name} {...skill} small />
               ))}
@@ -58,12 +58,12 @@ const SkillCard = ({ name, level, icon, small = false }) => {
   return (
     <Card className={`border-none shadow-sm hover:shadow-md transition-shadow ${small ? 'p-2' : 'p-3'}`}>
       <CardContent className={`flex items-center gap-3 p-0 ${small ? 'py-2' : 'py-3'}`}>
-        <div className="bg-theme-bg p-2 rounded bg-gray-700 dark:text-white">
+        <div className="bg-theme-bg p-2 rounded ">
           {icon}
         </div>
         <div>
           <h4 className="font-medium bg-gray-700 dark:text-white">{name}</h4>
-          {level && <p className="text-xs text-gray-500 bg-gray-700 dark:text-white">{level}</p>}
+          {level && <p className="text-xs text-gray-500 ">{level}</p>}
         </div>
       </CardContent>
     </Card>
