@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center relative dark:bg-gray-800 dark:text-white">
-      <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%]" dark:bg-gray-800 dark:text-white />
+      <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%]" />
       <div className="section-container dark:bg-gray-800 dark:text-white">
         <div className="max-w-4xl">
           <p className="text-foreground font-medium mb-4 animate-fade-up dark:bg-gray-800 dark:text-white">
