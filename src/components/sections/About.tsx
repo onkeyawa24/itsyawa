@@ -15,11 +15,9 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8 items-start mb-12 ">
             <div>
               <p className="text-gray-700 mb-4 ">
-                I'm Onke Yawa, a passionate softawre developer with a strong foundation in computer science 
-                and a growing footprint in cloud technology and IT support. 
-                With a Bachelor of Science degree in Computer Science from Walter Sisulu University 
-                and certifications in Microsoft Azure Fundamentals and Administration, 
-                I've built a career that bridges development, data management, and infrastructure. 
+                I'm <strong>Onke Yawa</p>strong>, a passionate softaware developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
+                I hold a Bachelor of Science in Computer Science, along with certifications in Microsoft Azure Fundamentals and Administration. 
+                These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure.. 
               </p>
               <p className="text-gray-700 mb-4 ">
                 My experience spans web and app development, cloud migrations, and end-to-end IT support, 
