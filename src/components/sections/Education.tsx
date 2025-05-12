@@ -7,15 +7,15 @@ import CertificatesTab from "../education/CertificatesTab";
 
 const Education = () => {
   return (
-    <section id="education" className="py-20 bg-[#dcedf1]  bg-gray-700 dark:text-white">
-      <div className="section-container  ">
-        <div className="max-w-5xl mx-auto  ">
+    <section id="education" className="py-20 bg-[#dcedf1]  bg-gray-800 dark:text-white">
+      <div className="section-container  bg-gray-800 dark:text-white">
+        <div className="max-w-5xl mx-auto bg-gray-800 dark:text-white ">
           <h2 className="text-3xl md:text-4xl font-bold mb-2  ">
             <span className="title-highlight">Education</span>
           </h2>
           <p className="text-theme-light-blue mb-12  ">My academic background and certifications</p>
 
-          <Tabs defaultValue="formal" className="w-full  ">
+          <Tabs defaultValue="formal" className="w-full bg-gray-700 dark:text-white ">
             <TabsList className="grid w-full grid-cols-3 mb-8  ">
               <TabsTrigger value="formal" className="flex items-center gap-2  ">
                 <GraduationCap className="h-4 w-4  " />
