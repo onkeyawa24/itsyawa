@@ -46,11 +46,11 @@ const Navbar = () => {
           : "bg-transparent py-6"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gray-800 dark:text-white">
+        <div className="flex justify-between items-center bg-gray-800 dark:text-white">
           <Link
             to="/"
-            className="text-xl font-bold text-theme-blue flex items-center gap-2"
+            className="text-xl font-bold text-theme-blue flex items-center gap-2 bg-gray-800 dark:text-white"
           >
             <span className="text-theme-accent">&lt;</span>
             itsyawa
@@ -59,7 +59,7 @@ const Navbar = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-theme-blue"
+            className="md:hidden text-theme-blue bg-gray-800 dark:text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -67,7 +67,7 @@ const Navbar = () => {
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8 bg-gray-800 dark:text-white">
             <NavLinks />
             <Button asChild>
               <a href="#contact">Get in Touch</a>
@@ -84,7 +84,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white px-4 pt-4 pb-6 shadow-md animate-fade-in">
+        <div className="md:hidden bg-white px-4 pt-4 pb-6 shadow-md animate-fade-in bg-gray-800 dark:text-white">
           <nav className="flex flex-col gap-4">
             <NavLinks mobile setIsMenuOpen={(value) => setIsMenuOpen(value)} />
             <Button asChild>
@@ -127,8 +127,8 @@ const NavLinks = ({
       href={link.href}
       className={`${
         mobile
-          ? "text-theme-blue text-lg py-2 border-b border-gray-100"
-          : "text-theme-blue hover:text-theme-accent transition-colors"
+          ? "text-theme-blue text-lg py-2 border-b border-gray-100 bg-gray-800 dark:text-white"
+          : "text-theme-blue hover:text-theme-accent transition-colors bg-gray-800 dark:text-white"
       }`}
       onClick={() => mobile && setIsMenuOpen(false)}
     >
