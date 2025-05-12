@@ -15,11 +15,19 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <Projects />
-        <Skills />
-        <Education/>
-        <Contact />
+        <div className="dark:bg-gray-900">
+          <About />
+        </div>
+        <div className="dark:bg-gray-800">
+          <Projects />
+        </div>
+        <div className="dark:bg-gray-900">
+          <Skills />
+        </div>
+        <Education />
+        <div className="dark:bg-gray-800">
+          <Contact />
+        </div>
       </main>
       <Footer />
       <ScrollToTopButton />
