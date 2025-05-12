@@ -3,15 +3,15 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-white bg-gray-800 dark:text-white">
-      <div className="section-container bg-gray-800 dark:text-white">
-        <div className="max-w-5xl mx-auto">
+    <section id="skills" className="bg-white bg-gray-900 dark:text-white">
+      <div className="section-container bg-gray-900 dark:text-white">
+        <div className="max-w-5xl mx-auto bg-gray-900 dark:text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
             <span className="title-highlight">My Skills</span>
           </h2>
           <p className="text-theme-light-blue mb-12">Technologies I work with</p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 bg-gray-900 dark:text-white">
             <div>
               <h3 className="text-xl font-bold mb-6 flex items-center">
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
@@ -37,7 +37,7 @@ const Skills = () => {
             </div>
           </div>
           
-          <div className="mt-16 bg-gray-700 dark:text-white">
+          <div className="mt-16 bg-gray-900 dark:text-white bg-gray-900 dark:text-white">
             <h3 className="text-xl font-bold mb-6 flex items-center">
               <span className="bg-theme-accent w-10 h-1 mr-3"></span>
               Currently Learning
