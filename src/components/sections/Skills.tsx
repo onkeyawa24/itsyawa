@@ -80,7 +80,6 @@ const frontendSkills = [
   { name: "MS Intune", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
   { name: "MS Intune", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
 ];
-];
 
 const toolsSkills = [
   { name: "Git & GitHub", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">G</div> },
