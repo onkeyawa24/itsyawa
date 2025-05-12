@@ -8,7 +8,7 @@ const About = () => {
       <div className="section-container   ">
         <div className="max-w-4xl mx-auto   ">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            <span className="title-highlight">About Me</span>
+            <span className="title-highlight">About Me - rtrtrt</span>
           </h2>
           <p className="text-theme-light-blue mb-12">Get to know my story</p>
           
