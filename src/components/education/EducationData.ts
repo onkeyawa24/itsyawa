@@ -63,22 +63,30 @@ export const certificates = [
     name: "Azure Fundamentals AZ-900",
     organization: "Microsoft",
     issued: "Aug 2023",
-    expires: "No expire",
+    expires: null,
     credentialId: "63254577F11BE4F",
     description: "Microsoft Azure cloud concepts, Azure workloads, security, privacy, pricing, and support."
   },
   {
-    name: "Professional Frontend Developer",
-    organization: "Meta (formerly Facebook)",
-    issued: "Nov 2022",
+    name: "AWS - Cloud Technical Essentials",
+    organization: "AWS through Coursera",
+    issued: "Mar 2025",
     expires: null,
     credentialId: "FB-FED-789012",
     description: "Comprehensive certification covering React, responsive design principles, and frontend optimization techniques."
   },
   {
-    name: "JavaScript Algorithms and Data Structures",
-    organization: "freeCodeCamp",
-    issued: "May 2022",
+    name: "Introduction to Cloud Computing",
+    organization: "IBM through Coursera",
+    issued: "FEB 2025",
+    expires: null,
+    credentialId: "FB-FED-789012",
+    description: "Comprehensive certification covering React, responsive design principles, and frontend optimization techniques."
+  },
+  {
+    name: "Cloud Computing Foundations",
+    organization: "Duke Univ. through Cousera",
+    issued: "Mar 2025",
     expires: null,
     description: "Covers basic to advanced JavaScript concepts including ES6, regular expressions, debugging, data structures and OOP."
   }

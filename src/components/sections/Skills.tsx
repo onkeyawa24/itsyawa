@@ -78,8 +78,6 @@ const frontendSkills = [
    { name: "SQL & SQL Server", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">S</div> },
   { name: "Networking", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">N</div> },
   { name: "MS Intune", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
-  { name: "MS Intune", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
-];
 ];
 
 const toolsSkills = [
@@ -88,9 +86,6 @@ const toolsSkills = [
   { name: "npm/yarn", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">N</div> },
   { name: "PowerShell", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">P</div> },
   { name: "Terminal", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">T</div> },
-  { name: "Power BI", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">P</div> },
-  { name: "Microsoft 365", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">M</div> },
-  { name: "Microsoft Intune", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
 ];
 
 const learningSkills = [
