@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-white ">
+    <section id="skills" className="bg-white bg-gray-800 dark:text-white">
       <div className="section-container ">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
