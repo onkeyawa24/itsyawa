@@ -39,7 +39,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Education</h4>
                     <p className="text-sm text-gray-600 ">
-                      B.S. in Computer Science
+                      BSc. in Computer Science
                     </p>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Experience</h4>
                     <p className="text-sm text-gray-600 ">
-                      Web Development Intern
+                      2 years in Clooud Support role specialisng in Azure.
                     </p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Always Learning</h4>
                     <p className="text-sm text-gray-600 ">
-                      Currently improving my skills in React and TypeScript
+                      Currently improving my skills in Data Analysis and AI.
                     </p>
                   </div>
                 </div>
