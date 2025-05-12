@@ -56,7 +56,7 @@ const Skills = () => {
 
 const SkillCard = ({ name, level, icon, small = false }) => {
   return (
-    <Card className={`border-none shadow-sm hover:shadow-md transition-shadow ${small ? 'p-2' : 'p-3'}`}>
+    <Card className={`border-none shadow-md hover:shadow-lg transition-shadow ${small ? 'p-2' : 'p-3'}`}>
       <CardContent className={`flex items-center gap-3 p-0 ${small ? 'py-2' : 'py-3'}`}>
         <div className="bg-theme-bg p-2 rounded ">
           {icon}

@@ -1,12 +1,15 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { certificates } from "./EducationData";
+import CertificateViewer from "./CertificateViewer";
+import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 
 const CertificatesTab = () => {
   return (
     <div className="grid grid-cols-1 gap-4">
       {certificates.map((cert, index) => (
-        <Card key={index} className="overflow-hidden">
+        <Card key={index} className="overflow-hidden shadow-md hover:shadow-lg transition-all">
           <CardContent className="p-0">
             <div className="flex flex-col sm:flex-row">
               <div className="bg-theme-blue text-white p-6 sm:w-1/4 flex items-center justify-center">
@@ -24,6 +27,28 @@ const CertificatesTab = () => {
                     <span className="font-medium">Credential ID:</span> {cert.credentialId}
                   </p>
                 )}
+                
+                <div className="mt-4 flex gap-2">
+                  <CertificateViewer certificate={cert} />
+                  
+                  {cert.certificateUrl && (
+                    <Button 
+                      variant="ghost" 
+                      size="sm" 
+                      className="flex items-center gap-1 text-xs"
+                      asChild
+                    >
+                      <a 
+                        href={cert.certificateUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="h-3.5 w-3.5" />
+                        Verify
+                      </a>
+                    </Button>
+                  )}
+                </div>
               </div>
             </div>
           </CardContent>

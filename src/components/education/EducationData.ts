@@ -58,14 +58,27 @@ export const onlineCourses = [
   }
 ];
 
-export const certificates = [
+export interface Certificate {
+  name: string;
+  organization: string;
+  issued: string;
+  expires: string | null;
+  credentialId?: string;
+  description: string;
+  certificateUrl?: string;
+  imageUrl?: string;
+}
+
+export const certificates: Certificate[] = [
   {
     name: "Azure Fundamentals AZ-900",
     organization: "Microsoft",
     issued: "Aug 2023",
     expires: "No expire",
     credentialId: "63254577F11BE4F",
-    description: "Microsoft Azure cloud concepts, Azure workloads, security, privacy, pricing, and support."
+    description: "Microsoft Azure cloud concepts, Azure workloads, security, privacy, pricing, and support.",
+    certificateUrl: "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+    imageUrl: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
   },
   {
     name: "Professional Frontend Developer",
@@ -73,13 +86,17 @@ export const certificates = [
     issued: "Nov 2022",
     expires: null,
     credentialId: "FB-FED-789012",
-    description: "Comprehensive certification covering React, responsive design principles, and frontend optimization techniques."
+    description: "Comprehensive certification covering React, responsive design principles, and frontend optimization techniques.",
+    certificateUrl: "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+    imageUrl: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Meta-Logo-Blue-01-1.png"
   },
   {
     name: "JavaScript Algorithms and Data Structures",
     organization: "freeCodeCamp",
     issued: "May 2022",
     expires: null,
-    description: "Covers basic to advanced JavaScript concepts including ES6, regular expressions, debugging, data structures and OOP."
+    description: "Covers basic to advanced JavaScript concepts including ES6, regular expressions, debugging, data structures and OOP.",
+    certificateUrl: "https://www.freecodecamp.org/certification/your-username/javascript-algorithms-and-data-structures",
+    imageUrl: "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg"
   }
 ];
