@@ -4,26 +4,26 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center relative">
-      <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%]" />
-      <div className="section-container">
+    <section id="hero" className="min-h-screen flex items-center relative dark:bg-gray-800 dark:text-white">
+      <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%]" dark:bg-gray-800 dark:text-white />
+      <div className="section-container dark:bg-gray-800 dark:text-white">
         <div className="max-w-4xl">
-          <p className="text-foreground font-medium mb-4 animate-fade-up">
+          <p className="text-foreground font-medium mb-4 animate-fade-up dark:bg-gray-800 dark:text-white">
             👋 Hi there! I'm
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 animate-fade-up dark:bg-gray-800 dark:text-white" style={{ animationDelay: "0.1s" }}>
             <span className="title-highlight">Onke Yawa</span>
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold text-theme-highlight mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <h2 className="text-3xl md:text-5xl font-bold text-theme-highlight mb-8 animate-fade-up dark:bg-gray-800 dark:text-white" style={{ animationDelay: "0.2s" }}>
             Junior Web Developer
           </h2>
-          <p className="text-lg text-foreground/80 max-w-2xl mb-10 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+          <p className="text-lg text-foreground/80 max-w-2xl mb-10 animate-fade-up dark:bg-gray-800 dark:text-white" style={{ animationDelay: "0.3s" }}>
             I build responsive, accessible web applications with modern 
             technologies. Currently focused on React, TypeScript, and 
             building beautiful user interfaces.
           </p>
           
-          <div className="flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+          <div className="flex flex-wrap gap-4 animate-fade-up dark:bg-gray-800 dark:text-white" style={{ animationDelay: "0.4s" }}>
             <Button asChild size="lg">
               <a href="#projects">View My Work</a>
             </Button>
