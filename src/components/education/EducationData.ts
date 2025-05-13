@@ -26,35 +26,10 @@ export const formalEducation: FormalEducation[] = [
   }
 ];
 
-// Sample data for the courses and certificates
+// Sample data for the courses and certificates 
 export const onlineCourses = [
   {
-    title: "Advanced React & Redux",
-    provider: "Udemy",
-    date: "Dec 2022",
-    duration: "20 hours",
-    skills: ["React", "Redux", "Context API"]
-  },
-  {
-    title: "TypeScript Masterclass",
-    provider: "Frontend Masters",
-    date: "Mar 2023",
-    duration: "12 hours",
-    skills: ["TypeScript", "Generics", "Type Guards"]
-  },
-  {
-    title: "Responsive Web Design",
-    provider: "freeCodeCamp",
-    date: "Jun 2022",
-    duration: "30 hours",
-    skills: ["HTML5", "CSS3", "Flexbox", "Grid"]
-  },
-  {
-    title: "Full Stack JavaScript",
-    provider: "The Odin Project",
-    date: "Aug 2022",
-    duration: "80 hours",
-    skills: ["JavaScript", "Node.js", "Express", "MongoDB"]
+    
   }
 ];
 
@@ -78,7 +53,7 @@ export const certificates: Certificate[] = [
     credentialId: "63254577F11BE4F",
     description: "Microsoft Azure cloud concepts, Azure workloads, security, privacy, pricing, and support.",
     certificateUrl: "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
-    imageUrl: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+    imageUrl: ""
   },
   {
     name: "Professional Frontend Developer",
@@ -88,7 +63,7 @@ export const certificates: Certificate[] = [
     credentialId: "FB-FED-789012",
     description: "Comprehensive certification covering React, responsive design principles, and frontend optimization techniques.",
     certificateUrl: "https://www.coursera.org/professional-certificates/meta-front-end-developer",
-    imageUrl: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Meta-Logo-Blue-01-1.png"
+    imageUrl: "#"
   },
   {
     name: "JavaScript Algorithms and Data Structures",
@@ -97,6 +72,6 @@ export const certificates: Certificate[] = [
     expires: null,
     description: "Covers basic to advanced JavaScript concepts including ES6, regular expressions, debugging, data structures and OOP.",
     certificateUrl: "https://www.freecodecamp.org/certification/your-username/javascript-algorithms-and-data-structures",
-    imageUrl: "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg"
+    imageUrl: "#"
   }
 ];
