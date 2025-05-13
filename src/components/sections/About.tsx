@@ -29,17 +29,17 @@ const About = () => {
           
           <div className="grid md:grid-cols-2 gap-8 items-start mb-12">
             <div>
-              <p className="text-gray-700 mb-4 ">
+              <p className="text-gray-700 mb-4 w-full text-center tracking-wider uppercase text-lg">
                 I'm <strong>Onke Yawa</strong>, a passionate software developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
                 I hold a Bachelor of Science in Computer Science, along with certifications in Microsoft Azure Fundamentals and Administration. 
                 These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure.. 
               </p>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 w-full text-center tracking-wider uppercase text-lg">
                 My experience spans web and app development, cloud migrations, and end-to-end IT support, 
                 including managing Active Directory environments, automating tasks with PowerShell, 
                 and creating impactful Power BI dashboards.
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-700 w-full text-center tracking-wider uppercase text-lg">
                 Whether it's coding in PHP and JavaScript or fine-tuning SQL servers, 
                 I enjoy turning complex problems into practical, scalable solutions.
               </p>
