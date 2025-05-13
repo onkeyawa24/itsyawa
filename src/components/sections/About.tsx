@@ -4,62 +4,64 @@ import { User, Book, Briefcase } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white ">
-      <div className="section-container   ">
-        <div className="max-w-4xl mx-auto   ">
+    <section id="about" className="bg-[#d9f0f0] dark:bg-transparent">
+      <div className="section-container">
+        <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
             <span className="title-highlight">About Me</span>
           </h2>
-          <p className="text-theme-light-blue mb-12">Get to know my story</p>
+          <p className="text-theme-light-blue mb-12 dark:text-white">Get to know my story</p>
           
-          <div className="grid md:grid-cols-2 gap-8 items-start mb-12 ">
+          <div className="grid md:grid-cols-2 gap-8 items-start mb-12">
             <div>
-              <p className="text-gray-700 mb-4 ">
-                I'm <strong>Onke Yawa</p>strong>, a passionate softaware developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
-                I hold a Bachelor of Science in Computer Science, along with certifications in Microsoft Azure Fundamentals and Administration. 
-                These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure.. 
+              <p className="text-gray-700 mb-4 dark:text-white">
+                I'm a passionate <strong>Junior Web Developer</strong> with a 
+                love for creating beautiful, functional websites and applications. 
+                My journey in web development began with curiosity that quickly 
+                turned into a passion for building things that live on the internet.
               </p>
-              <p className="text-gray-700 mb-4 ">
-                My experience spans web and app development, cloud migrations, and end-to-end IT support, 
-                including managing Active Directory environments, automating tasks with PowerShell, 
-                and creating impactful Power BI dashboards.
+              <p className="text-gray-700 mb-4 dark:text-white">
+                With a background in computer science, I bring a unique perspective 
+                to development projects. I believe in writing clean, maintainable code 
+                and staying on top of modern web development practices.
               </p>
-              <p className="text-gray-700 ">
-                Whether it's coding in PHP and JavaScript or fine-tuning SQL servers, 
-                I enjoy turning complex problems into practical, scalable solutions.
+              <p className="text-gray-700 dark:text-white">
+                Currently, I'm focused on expanding my knowledge in React, TypeScript 
+                and modern JavaScript frameworks while looking for opportunities to 
+                work with a collaborative team.
               </p>
             </div>
             
-            <div className="bg-theme-bg rounded-lg p-6 shadow-sm ">
-              <h3 className="text-xl font-semibold mb-4 ">Quick Bio</h3>
+            <div className="bg-theme-bg rounded-lg p-6 shadow-sm dark:bg-gray-800">
+              <h3 className="text-xl font-semibold mb-4 dark:text-white">Quick Bio</h3>
               
-              <div className="space-y-4 ">
-                <div className="flex items-start gap-3 ">
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
                   <User className="text-theme-accent mt-1" size={20} />
                   <div>
-                    <h4 className="font-medium">Education</h4>
-                    <p className="text-sm text-gray-600 ">
-                      BSc. in Computer Science
+                    <h4 className="font-medium dark:text-white">Education</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                      B.S. in Computer Science
                     </p>
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-3 ">
-                  <Briefcase className="text-theme-accent mt-1 " size={20} />
+                <div className="flex items-start gap-3">
+                  <Briefcase className="text-theme-accent mt-1" size={20} />
                   <div>
-                    <h4 className="font-medium">Experience</h4>
-                    <p className="text-sm text-gray-600 ">
-                      2 years in Clooud Support role specialisng in Azure.
+                    <h4 className="font-medium dark:text-white">Experience</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                      Web Development Intern
                     </p>
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-3 ">
-                  <Book className="text-theme-accent mt-1 " size={20} />
+                <div className="flex items-start gap-3">
+                  <Book className="text-theme-accent mt-1" size={20} />
                   <div>
-                    <h4 className="font-medium">Always Learning</h4>
-                    <p className="text-sm text-gray-600 ">
-                      Currently improving my skills in Data Analysis and AI.
+                    <h4 className="font-medium dark:text-white">Always Learning</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                      Currently improving my skills in React and TypeScript
                     </p>
                   </div>
                 </div>
@@ -67,12 +69,12 @@ const About = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {highlights.map((item, index) => (
-              <Card key={index} className="border-t-4 border-t-theme-accent ">
-                <CardContent className="pt-6 ">
-                  <h3 className="font-bold text-lg mb-2 ">{item.title}</h3>
-                  <p className="text-gray-700 ">{item.description}</p>
+              <Card key={index} className="border-t-4 border-t-theme-accent dark:bg-gray-800">
+                <CardContent className="pt-6">
+                  <h3 className="font-bold text-lg mb-2 dark:text-white">{item.title}</h3>
+                  <p className="text-gray-700 dark:text-gray-300">{item.description}</p>
                 </CardContent>
               </Card>
             ))}
