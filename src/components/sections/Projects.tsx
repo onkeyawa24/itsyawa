@@ -92,7 +92,7 @@ const projects = [
     code: "#"
   },
   {
-    title: "Social Networking - Winnet",
+    title: "Social Networking - Winett",
     description: "A web application that allow users to share content such as videos pictures and messaging.",
     tech: ["React", "Firebase", "CSS Modules", "Recharts"],
     image: "/images/project2.jpg", 
