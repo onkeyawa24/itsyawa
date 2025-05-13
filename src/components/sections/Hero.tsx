@@ -18,9 +18,9 @@ const Hero = () => {
             Cloud Developer
           </h2>
           <p className="text-lg text-foreground/80 max-w-2xl mb-10 animate-fade-up dark:text-white/80" style={{ animationDelay: "0.3s" }}>
-            I build responsive, accessible web applications with modern 
-            technologies. Currently focused on React, TypeScript, and 
-            building beautiful user interfaces.
+            I specialize in building scalable, secure cloud-based solutions using modern technologies. 
+            Currently focused on Microsoft Azure, automation with PowerShell, and 
+            optimizing infrastructure for performance and reliability.
           </p>
           
           <div className="flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
