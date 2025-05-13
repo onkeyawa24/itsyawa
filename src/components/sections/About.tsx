@@ -4,7 +4,7 @@ import { User, Book, Briefcase } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white dark:bg-transparent">
+    <section id="about" className="bg-[#d9f0f0] dark:bg-transparent">
       <div className="section-container">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
