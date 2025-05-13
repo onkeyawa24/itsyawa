@@ -2,13 +2,28 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { User, Book, Briefcase } from "lucide-react";
 
+const highlights = [
+  {
+    title: "Problem Solver",
+    description: "I enjoy tackling complex challenges and finding elegant solutions through code."
+  },
+  {
+    title: "Team Player",
+    description: "I thrive in collaborative environments and value open communication."
+  },
+  {
+    title: "Continuous Learner",
+    description: "I'm dedicated to improving my skills and staying up-to-date with industry trends."
+  }
+];
+
 const About = () => {
   return (
     <section id="about" className="bg-white ">
       <div className="section-container   ">
         <div className="max-w-4xl mx-auto   ">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            <span className="title-highlight">About Me - rtrtrt</span>
+            <span className="title-highlight">About Me</span>
           </h2>
           <p className="text-theme-light-blue mb-12">Get to know my story</p>
           
@@ -82,20 +97,5 @@ const About = () => {
     </section>
   );
 };
-
-const highlights = [
-  {
-    title: "Problem Solver",
-    description: "I enjoy tackling complex challenges and finding elegant solutions through code."
-  },
-  {
-    title: "Team Player",
-    description: "I thrive in collaborative environments and value open communication."
-  },
-  {
-    title: "Continuous Learner",
-    description: "I'm dedicated to improving my skills and staying up-to-date with industry trends."
-  }
-];
 
 export default About;
