@@ -17,7 +17,10 @@ const OnlineCoursesTab = () => {
             {course.skills && (
               <div className="mt-4 flex flex-wrap gap-2">
                 {course.skills.map((skill, idx) => (
-                  <span key={idx} className="bg-theme-accent/10 text-theme-blue dark:bg-theme-accent/20 dark:text-white text-xs py-1 px-2 rounded-md">
+                  <span 
+                    key={idx} 
+                    className="bg-theme-accent/10 text-theme-blue dark:bg-theme-accent/20 dark:text-white text-xs py-1 px-2 rounded-md"
+                  >
                     {skill}
                   </span>
                 ))}

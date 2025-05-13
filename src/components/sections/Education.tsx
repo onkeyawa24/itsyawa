@@ -16,18 +16,27 @@ const Education = () => {
           <p className="text-theme-light-blue mb-12 dark:text-white">My academic background and certifications</p>
 
           <Tabs defaultValue="formal" className="w-full">
-            <TabsList className="grid w-full grid-cols-3 mb-8 dark:bg-gray-800">
-              <TabsTrigger value="formal" className="flex items-center gap-2 dark:text-white dark:data-[state=active]:bg-gray-700" style={{ backgroundColor: "#ccdcdc" }}>
+            <TabsList className="grid w-full grid-cols-3 mb-8 bg-[#ccdcdc] dark:bg-gray-800">
+              <TabsTrigger 
+                value="formal" 
+                className="flex items-center gap-2 text-theme-blue dark:text-white dark:data-[state=active]:bg-gray-700 data-[state=active]:bg-white"
+              >
                 <GraduationCap className="h-4 w-4" />
                 <span className="hidden sm:inline">Formal Education</span>
                 <span className="sm:hidden">Formal</span>
               </TabsTrigger>
-              <TabsTrigger value="courses" className="flex items-center gap-2 dark:text-white dark:data-[state=active]:bg-gray-700" style={{ backgroundColor: "#ccdcdc" }}>
+              <TabsTrigger 
+                value="courses" 
+                className="flex items-center gap-2 text-theme-blue dark:text-white dark:data-[state=active]:bg-gray-700 data-[state=active]:bg-white"
+              >
                 <Book className="h-4 w-4" />
                 <span className="hidden sm:inline">Online Courses</span>
                 <span className="sm:hidden">Courses</span>
               </TabsTrigger>
-              <TabsTrigger value="certificates" className="flex items-center gap-2 dark:text-white dark:data-[state=active]:bg-gray-700" style={{ backgroundColor: "#ccdcdc" }}>
+              <TabsTrigger 
+                value="certificates" 
+                className="flex items-center gap-2 text-theme-blue dark:text-white dark:data-[state=active]:bg-gray-700 data-[state=active]:bg-white"
+              >
                 <School className="h-4 w-4" />
                 <span className="hidden sm:inline">Certifications</span>
                 <span className="sm:hidden">Certs</span>
