@@ -103,7 +103,7 @@ image: "./lovable-uploads/winett.PNG",
   {
     title: "E-Commerce - Thengastore",
     description: "An E-commerce website for ordering and deliverring food and other products to customers.",
-    tech: ["JavaScript", "HTML", "CSS", "Weather API"],
+    tech: ["PHP", "JavaScript", "HTML", "APIs"],
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450",
     demo: "#",
     code: "#"
