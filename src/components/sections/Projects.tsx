@@ -89,7 +89,7 @@ const projects = [
     tech: ["PHP", "TypeScript", "Tailwind CSS", "SQL"],
 image: "./lovable-uploads/AN.jpg",
     demo: "#",
-    code: "#"
+    code: "https://github.com/onkeyawa24/anbuilding"
   },
   {
     title: "Social Networking - Winett",
@@ -98,7 +98,7 @@ image: "./lovable-uploads/AN.jpg",
 image: "./lovable-uploads/winett.PNG",
 
     demo: "#",
-    code: "#"
+    code: "https://github.com/onkeyawa24/winett"
   },
   {
     title: "E-Commerce - Thengastore",
