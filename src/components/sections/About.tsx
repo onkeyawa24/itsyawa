@@ -15,7 +15,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8 items-start mb-12 ">
             <div>
               <p className="text-gray-700 mb-4 ">
-                I'm <strong>Onke Yawa</strong>, a passionate softaware developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
+                I'm <strong>Onke Yawa</strong>, a passionate software developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
                 I hold a Bachelor of Science in Computer Science, along with certifications in Microsoft Azure Fundamentals and Administration. 
                 These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure.. 
               </p>
@@ -49,7 +49,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium">Experience</h4>
                     <p className="text-sm text-gray-600 ">
-                      2 years in Clooud Support role specialisng in Azure.
+                      2 years in Cloud Support role specialisng in Azure.
                     </p>
                   </div>
                 </div>
