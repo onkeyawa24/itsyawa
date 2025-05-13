@@ -36,18 +36,32 @@ export interface OnlineCourse {
 // Sample data for the courses and certificates 
 export const onlineCourses: OnlineCourse[] = [
   {
-    title: "--- No online courses yet ---.",
-    provider: "",
-    date: "",
-    duration: "",
-    skills: ["", ""]
+    title: "React - The Complete Guide",
+    provider: "Udemy",
+    date: "Jan 2023",
+    duration: "40 hours",
+    skills: ["React", "Redux", "React Hooks"]
   },
   {
-    title: "",
-    provider: "",
-    date: "",
-    duration: "",
-    skills: ["", ""]
+    title: "Advanced CSS and Sass",
+    provider: "Udemy",
+    date: "Nov 2022",
+    duration: "28 hours",
+    skills: ["CSS", "Sass", "Responsive Design"]
+  },
+  {
+    title: "JavaScript Algorithms and Data Structures",
+    provider: "freeCodeCamp",
+    date: "Aug 2022",
+    duration: "300 hours",
+    skills: ["JavaScript", "Algorithms", "Data Structures"]
+  },
+  {
+    title: "TypeScript for Beginners",
+    provider: "Coursera",
+    date: "May 2022",
+    duration: "20 hours",
+    skills: ["TypeScript", "Type Systems", "Interfaces"]
   }
 ];
 
