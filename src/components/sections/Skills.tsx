@@ -15,7 +15,7 @@ const Skills = () => {
             <div>
               <h3 className="text-xl font-bold mb-6 flex items-center dark:text-white">
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
-                Frontend Development
+                Cloud Development
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 {frontendSkills.map((skill) => (
