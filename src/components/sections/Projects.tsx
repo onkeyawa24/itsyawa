@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className={`md:col-span-7 ${index % 2 === 1 ? "md:order-2" : ""}`}>
                   <div className="bg-white dark:bg-gray-700 p-2 rounded-lg shadow-lg">
                     <img 
-                      src={project.image}
+                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450" 
                       alt={project.title} 
                       className="rounded-md object-cover w-full h-[250px]" 
                     />
@@ -67,7 +67,7 @@ const Projects = () => {
             </p>
             <Button asChild className="dark:bg-theme-accent dark:text-white">
               <a 
-                href="https://github.com/onkeyawa24" 
+                href="https://github.com/yourusername" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -87,7 +87,7 @@ const projects = [
     title: "E-Commerce Website - AN Buildind",
     description: "A responsive e-commerce platform with data visualization, user management, and inventory tracking features.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-image: "./lovable-uploads/AN.jpg",
+    image: "/images/project1.jpg",
     demo: "#",
     code: "#"
   },
@@ -95,16 +95,15 @@ image: "./lovable-uploads/AN.jpg",
     title: "Social Networking - Winett",
     description: "A web application that allow users to share content such as videos pictures and messaging.",
     tech: ["React", "Firebase", "CSS Modules", "Recharts"],
-image: "./lovable-uploads/winett.PNG",
-
+    image: "/images/project2.jpg", 
     demo: "#",
     code: "#"
   },
   {
     title: "E-Commerce - Thengastore",
     description: "An E-commerce website for ordering and deliverring food and other products to customers.",
-    tech: ["PHP", "JavaScript", "HTML", "APIs"],
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450",
+    tech: ["JavaScript", "HTML", "CSS", "Weather API"],
+    image: "/images/project3.jpg",
     demo: "#",
     code: "#"
   }
