@@ -19,36 +19,36 @@ const highlights = [
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#d9f0f0] dark:bg-gray-900 text-white">
+    <section id="about" className="bg-[#d9f0f0]">
       <div className="section-container">
-        <div className="max-w-4xl mx-auto dark:bg-gray-900 text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2 dark:bg-gray-900 text-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2">
             <span className="title-highlight">About Me</span>
           </h2>
           <p className="text-theme-light-blue mb-12">Get to know my story</p>
           
           <div className="grid md:grid-cols-2 gap-8 items-start mb-12">
             <div>
-              <p className="text-gray-700 mb-4 dark:bg-gray-900 text-white">
+              <p className="text-gray-700 mb-4 ">
                 I'm <strong>Onke Yawa</strong>, a passionate software developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
                 I hold a Bachelor of Science in Computer Science, along with certifications in Microsoft Azure Fundamentals and Administration. 
                 These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure.. 
               </p>
-              <p className="text-gray-700 mb-4 dark:bg-gray-900 text-white">
+              <p className="text-gray-700 mb-4">
                 My experience spans web and app development, cloud migrations, and end-to-end IT support, 
                 including managing Active Directory environments, automating tasks with PowerShell, 
                 and creating impactful Power BI dashboards.
               </p>
-              <p className="text-gray-700 dark:bg-gray-900 text-white">
+              <p className="text-gray-700">
                 Whether it's coding in PHP and JavaScript or fine-tuning SQL servers, 
                 I enjoy turning complex problems into practical, scalable solutions.
               </p>
             </div>
             
-            <div className="bg-theme-bg rounded-lg p-6 shadow-sm dark:bg-gray-900 text-white">
+            <div className="bg-theme-bg rounded-lg p-6 shadow-sm">
               <h3 className="text-xl font-semibold mb-4">Quick Bio</h3>
               
-              <div className="space-y-4 dark:bg-gray-700 text-white">
+              <div className="space-y-4 ">
                 <div className="flex items-start gap-3">
                   <User className="text-theme-accent mt-1" size={20} />
                   <div>
@@ -69,7 +69,7 @@ const About = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-3 dark:bg-gray-900 text-white">
+                <div className="flex items-start gap-3">
                   <Book className="text-theme-accent mt-1" size={20} />
                   <div>
                     <h4 className="font-medium">Always Learning</h4>
@@ -82,10 +82,10 @@ const About = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 dark:bg-gray-900 text-white">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
             {highlights.map((item, index) => (
               <Card key={index} className="border-t-4 border-t-theme-accent">
-                <CardContent className="pt-6 bg-[#ebffff] rounded-md dark:bg-gray-800 text-white">
+                <CardContent className="pt-6 bg-[#ebffff] rounded-md">
                   <h3 className="font-bold text-lg mb-2 ">{item.title}</h3>
                   <p className="text-gray-700 ">{item.description}</p>
                 </CardContent>
