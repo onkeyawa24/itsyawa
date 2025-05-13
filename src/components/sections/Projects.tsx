@@ -67,7 +67,7 @@ const Projects = () => {
             </p>
             <Button asChild className="dark:bg-theme-accent dark:text-white">
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/onkeyawa24" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
