@@ -85,7 +85,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
             {highlights.map((item, index) => (
               <Card key={index} className="border-t-4 border-t-theme-accent">
-                <CardContent className="pt-6 bg-[#dcfefe] rounded">
+                <CardContent className="pt-6 bg-[#ebffff] rounded-md">
                   <h3 className="font-bold text-lg mb-2 ">{item.title}</h3>
                   <p className="text-gray-700 ">{item.description}</p>
                 </CardContent>
