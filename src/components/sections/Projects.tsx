@@ -87,7 +87,7 @@ const projects = [
     title: "E-Commerce Website - AN Buildind",
     description: "A responsive e-commerce platform with data visualization, user management, and inventory tracking features.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-    image: "./lovable-uploads/AN.jpg",
+image: "./lovable-uploads/AN.jpg",
     demo: "#",
     code: "#"
   },
@@ -95,14 +95,15 @@ const projects = [
     title: "Social Networking - Winett",
     description: "A web application that allow users to share content such as videos pictures and messaging.",
     tech: ["React", "Firebase", "CSS Modules", "Recharts"],
-    image: "./lovable-uploads/winett.PNG",
+image: "./lovable-uploads/winett.PNG",
+
     demo: "#",
     code: "#"
   },
   {
     title: "E-Commerce - Thengastore",
     description: "An E-commerce website for ordering and deliverring food and other products to customers.",
-    tech: ["PHP", "JavaScript", "HTML", "APIs"],
+    tech: ["JavaScript", "HTML", "CSS", "Weather API"],
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450",
     demo: "#",
     code: "#"
