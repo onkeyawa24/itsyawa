@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const Skills = () => {
@@ -15,7 +14,7 @@ const Skills = () => {
             <div>
               <h3 className="text-xl font-bold mb-6 flex items-center dark:text-white">
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
-                Frontend Development
+                Cloud Development
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 {frontendSkills.map((skill) => (
@@ -56,8 +55,8 @@ const Skills = () => {
 
 const SkillCard = ({ name, level, icon, small = false }) => {
   return (
-    <Card className={`border-none shadow-md hover:shadow-lg transition-shadow dark:bg-gray-800 ${small ? 'p-2' : 'p-3'}`}>
-      <CardContent className={`flex items-center gap-3 p-0 ${small ? 'py-2' : 'py-3'}`}>
+    <Card className={border-none shadow-md hover:shadow-lg transition-shadow dark:bg-gray-800 ${small ? 'p-2' : 'p-3'}}>
+      <CardContent className={flex items-center gap-3 p-0 ${small ? 'py-2' : 'py-3'}}>
         <div className="bg-theme-bg p-2 rounded dark:bg-gray-700">
           {icon}
         </div>
@@ -75,10 +74,10 @@ const frontendSkills = [
   { name: "Active Directory", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">AD</div> },
   { name: "Cloud Migration", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">CM</div> },
   { name: "Cloud Networking", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">CN</div> },
-   { name: "SQL & SQL Server", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">S</div> },
+  { name: "SQL & SQL Server", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">S</div> },
   { name: "Networking", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">N</div> },
-  { name: "MS Intune", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
-  { name: "MS Intune", level: "Beginner", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
+  { name: "MS Intune", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
+  { name: "MS Power Automate", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">PA</div> },
 ];
 
 const toolsSkills = [
@@ -89,7 +88,7 @@ const toolsSkills = [
   { name: "Terminal", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">T</div> },
   { name: "Power BI", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">P</div> },
   { name: "Microsoft 365", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">M</div> },
-  { name: "MS Power Automate", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">PA</div> },
+  { name: "Laravel", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">L</div> },
 ];
 
 const learningSkills = [
