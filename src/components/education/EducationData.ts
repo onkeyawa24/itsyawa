@@ -67,7 +67,7 @@ export const certificates: Certificate[] = [
     name: "Azure Fundamentals AZ-900",
     organization: "Microsoft",
     issued: "Aug 2023",
-    expires: "No expire",
+    expires: null,
     credentialId: "63254577F11BE4F",
     description: "Microsoft Azure cloud concepts, Azure workloads, security, privacy, pricing, and support.",
     certificateUrl: "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
@@ -88,7 +88,7 @@ export const certificates: Certificate[] = [
     organization: "AWS through Coursera",
     issued: "Mar 2025",
     expires: null,
-    description: "Covers AWS Management, Console AWS Identity & Access Management (IAM), Networking on AWS, Cloud Computing and AWS security",
+    description: "Covers AWS Management, Console AWS Identity & Access Management, Networking on AWS, Cloud Computing and AWS security",
     certificateUrl: "https://coursera.org/share/0b1e7c6d14e53bdeead6a56dfe92e83f",
     imageUrl: "#"
   }
