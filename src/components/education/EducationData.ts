@@ -74,22 +74,22 @@ export const certificates: Certificate[] = [
     imageUrl: ""
   },
   {
-    name: "Professional Frontend Developer",
-    organization: "Meta (formerly Facebook)",
-    issued: "Nov 2022",
+    name: "Intro to Cloud Computing",
+    organization: "IBM through Coursera",
+    issued: "Feb 2025",
     expires: null,
     credentialId: "FB-FED-789012",
-    description: "Comprehensive certification covering React, responsive design principles, and frontend optimization techniques.",
-    certificateUrl: "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+    description: "Comprehensive certification covering cloud concepts, Tenant management, security, privacy, pricing, and support.",
+    certificateUrl: "https://coursera.org/share/89fca418456202408626db0e540d2658",
     imageUrl: "#"
   },
   {
-    name: "JavaScript Algorithms and Data Structures",
-    organization: "freeCodeCamp",
-    issued: "May 2022",
+    name: "AWS Cloud Technical Essentials",
+    organization: "AWS through Coursera",
+    issued: "Mar 2025",
     expires: null,
-    description: "Covers basic to advanced JavaScript concepts including ES6, regular expressions, debugging, data structures and OOP.",
-    certificateUrl: "https://www.freecodecamp.org/certification/your-username/javascript-algorithms-and-data-structures",
+    description: "Covers AWS Management, Console AWS Identity & Access Management (IAM), Networking on AWS, Cloud Computing and AWS security",
+    certificateUrl: "https://coursera.org/share/0b1e7c6d14e53bdeead6a56dfe92e83f",
     imageUrl: "#"
   }
 ];
