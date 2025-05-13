@@ -95,7 +95,7 @@ image: "./lovable-uploads/AN.jpg",
     title: "Social Networking - Winett",
     description: "A web application that allow users to share content such as videos pictures and messaging.",
     tech: ["React", "Firebase", "CSS Modules", "Recharts"],
-image: "./lovable-uploads/winett.png",
+image: "./lovable-uploads/winett.PNG",
 
     demo: "#",
     code: "#"
