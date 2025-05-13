@@ -17,7 +17,7 @@ const Skills = () => {
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
                 Cloud Development
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-4 bg-[#f1fcfc]">
                 {frontendSkills.map((skill) => (
                   <SkillCard key={skill.name} {...skill} />
                 ))}
@@ -29,7 +29,7 @@ const Skills = () => {
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
                 Tools & Technologies
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-4 bg-[#f1fcfc]">
                 {toolsSkills.map((skill) => (
                   <SkillCard key={skill.name} {...skill} />
                 ))}
@@ -42,7 +42,7 @@ const Skills = () => {
               <span className="bg-theme-accent w-10 h-1 mr-3"></span>
               Currently Learning
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-[#f1fcfc]">
               {learningSkills.map((skill) => (
                 <SkillCard key={skill.name} {...skill} small />
               ))}
