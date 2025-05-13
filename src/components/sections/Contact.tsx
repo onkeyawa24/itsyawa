@@ -60,41 +60,41 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-theme-blue text-white  ">
-      <div className="section-container  ">
-        <div className="max-w-5xl mx-auto  ">
-          <div className="grid md:grid-cols-2 gap-12  ">
+    <section id="contact" className="bg-transparent text-white">
+      <div className="section-container">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4  ">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Get In Touch
               </h2>
-              <p className="mb-8 text-theme-highlight  ">
+              <p className="mb-8 text-theme-highlight dark:text-gray-300">
                 Have a question or want to work together? Feel free to contact me!
               </p>
               
-              <div className="space-y-6  ">
-                <div className="flex items-center gap-4  ">
-                  <div className="bg-white/10 p-3 rounded-full  ">
-                    <Mail size={20} className="text-theme-accent  " />
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <div className="bg-white/10 p-3 rounded-full">
+                    <Mail size={20} className="text-theme-accent" />
                   </div>
                   <div>
-                    <h3 className="font-medium  ">Email</h3>
-                    <p className="text-sm text-gray-300  ">onkeeyawa@gmail.com</p>
+                    <h3 className="font-medium">Email</h3>
+                    <p className="text-sm text-gray-300">onkeeyawa@gmail.com</p>
                   </div>
                 </div>
                 
-                <div className="flex items-center gap-4  ">
-                  <div className="bg-white/10 p-3 rounded-full  ">
+                <div className="flex items-center gap-4">
+                  <div className="bg-white/10 p-3 rounded-full">
                     <MessageSquare size={20} className="text-theme-accent" />
                   </div>
                   <div>
                     <h3 className="font-medium">Social Media</h3>
-                    <div className="flex gap-4 mt-2  ">
+                    <div className="flex gap-4 mt-2">
                       <a 
                         href="https://github.com/onkeyawa24" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="hover:text-theme-accent transition-colors  "
+                        className="hover:text-theme-accent transition-colors"
                       >
                         <Github size={20} />
                       </a>
@@ -102,7 +102,7 @@ const Contact = () => {
                         href="https://www.linkedin.com/in/onke-yawa" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="hover:text-theme-accent transition-colors  "
+                        className="hover:text-theme-accent transition-colors"
                       >
                         <Linkedin size={20} />
                       </a>
@@ -110,7 +110,7 @@ const Contact = () => {
                         href="https://www.x.com/onkeyawa" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="hover:text-theme-accent transition-colors  "
+                        className="hover:text-theme-accent transition-colors"
                       >
                         <Twitter size={20} />
                       </a>
@@ -120,11 +120,11 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="bg-white/5 p-6 rounded-lg backdrop-blur-sm  ">
+            <div className="bg-white/5 p-6 rounded-lg backdrop-blur-sm dark:bg-gray-700/50">
               <form onSubmit={handleSubmit}>
                 <div className="space-y-4">
                   <div>
-                    <label htmlFor="name" className="block mb-1 text-sm  ">
+                    <label htmlFor="name" className="block mb-1 text-sm">
                       Name
                     </label>
                     <Input
@@ -133,13 +133,13 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400  "
+                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
                       placeholder="Your name"
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="email" className="block mb-1 text-sm  ">
+                    <label htmlFor="email" className="block mb-1 text-sm">
                       Email
                     </label>
                     <Input
@@ -149,13 +149,13 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400  "
+                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
                       placeholder="Your email"
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="message" className="block mb-1 text-sm  ">
+                    <label htmlFor="message" className="block mb-1 text-sm">
                       Message
                     </label>
                     <Textarea
@@ -164,7 +164,7 @@ const Contact = () => {
                       value={formData.message}
                       onChange={handleChange}
                       required
-                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 min-h-32  "
+                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 min-h-32"
                       placeholder="Your message..."
                     />
                   </div>

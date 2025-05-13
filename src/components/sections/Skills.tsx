@@ -3,17 +3,17 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-white ">
-      <div className="section-container ">
-        <div className="max-w-5xl mx-auto ">
+    <section id="skills" className="bg-white dark:bg-transparent">
+      <div className="section-container">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
             <span className="title-highlight">My Skills</span>
           </h2>
-          <p className="text-theme-light-blue mb-12">Technologies I work with</p>
+          <p className="text-theme-light-blue mb-12 dark:text-white">Technologies I work with</p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-bold mb-6 flex items-center">
+              <h3 className="text-xl font-bold mb-6 flex items-center dark:text-white">
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
                 Frontend Development
               </h3>
@@ -25,7 +25,7 @@ const Skills = () => {
             </div>
             
             <div>
-              <h3 className="text-xl font-bold mb-6 flex items-center">
+              <h3 className="text-xl font-bold mb-6 flex items-center dark:text-white">
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
                 Tools & Technologies
               </h3>
@@ -37,8 +37,8 @@ const Skills = () => {
             </div>
           </div>
           
-          <div className="mt-16  ">
-            <h3 className="text-xl font-bold mb-6 flex items-center">
+          <div className="mt-16">
+            <h3 className="text-xl font-bold mb-6 flex items-center dark:text-white">
               <span className="bg-theme-accent w-10 h-1 mr-3"></span>
               Currently Learning
             </h3>
@@ -56,14 +56,14 @@ const Skills = () => {
 
 const SkillCard = ({ name, level, icon, small = false }) => {
   return (
-    <Card className={`border-none shadow-md hover:shadow-lg transition-shadow ${small ? 'p-2' : 'p-3'}`}>
+    <Card className={`border-none shadow-md hover:shadow-lg transition-shadow dark:bg-gray-800 ${small ? 'p-2' : 'p-3'}`}>
       <CardContent className={`flex items-center gap-3 p-0 ${small ? 'py-2' : 'py-3'}`}>
-        <div className="bg-theme-bg p-2 rounded ">
+        <div className="bg-theme-bg p-2 rounded dark:bg-gray-700">
           {icon}
         </div>
         <div>
-          <h4 className="font-medium ">{name}</h4>
-          {level && <p className="text-xs text-gray-500 ">{level}</p>}
+          <h4 className="font-medium dark:text-white">{name}</h4>
+          {level && <p className="text-xs text-gray-500 dark:text-gray-300">{level}</p>}
         </div>
       </CardContent>
     </Card>
