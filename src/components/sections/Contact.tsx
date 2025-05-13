@@ -97,7 +97,7 @@ const Contact = () => {
                         className="hover:text-theme-accent transition-colors"
                       >
                         <Github size={20} />
-                      </a><br>
+                      </a>
                       <a 
                         href="https://www.linkedin.com/in/onke-yawa" 
                         target="_blank" 
@@ -105,7 +105,7 @@ const Contact = () => {
                         className="hover:text-theme-accent transition-colors"
                       >
                         <Linkedin size={20} />
-                      </a><br>
+                      </a>
                       <a 
                         href="https://www.x.com/onkeyawa" 
                         target="_blank" 
