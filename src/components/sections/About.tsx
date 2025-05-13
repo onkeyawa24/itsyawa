@@ -19,7 +19,7 @@ const highlights = [
 
 const About = () => {
   return (
-    <section id="about" className="bg-white ">
+    <section id="about" className="bg-[#d9f0f0]">
       <div className="section-container   ">
         <div className="max-w-4xl mx-auto   ">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
