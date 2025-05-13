@@ -84,24 +84,24 @@ const Projects = () => {
 
 const projects = [
   {
-    title: "E-Commerce Dashboard",
-    description: "A responsive admin dashboard for an e-commerce platform with data visualization, user management, and inventory tracking features.",
+    title: "E-Commerce Website - AN Buildind",
+    description: "A responsive e-commerce platform with data visualization, user management, and inventory tracking features.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
     image: "/images/project1.jpg",
     demo: "#",
     code: "#"
   },
   {
-    title: "Personal Finance Tracker",
-    description: "A web application that helps users track expenses, create budgets, and visualize spending patterns over time.",
+    title: "Social Networking - Winnet",
+    description: "A web application that allow users to share content such as videos pictures and messaging.",
     tech: ["React", "Firebase", "CSS Modules", "Recharts"],
     image: "/images/project2.jpg", 
     demo: "#",
     code: "#"
   },
   {
-    title: "Weather Application",
-    description: "A sleek weather app that provides current conditions and forecasts with a clean, intuitive user interface.",
+    title: "E-Commerce - Thengastore",
+    description: "An E-commerce website for ordering and deliverring food and other products to customers.",
     tech: ["JavaScript", "HTML", "CSS", "Weather API"],
     image: "/images/project3.jpg",
     demo: "#",
