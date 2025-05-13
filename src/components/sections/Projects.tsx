@@ -87,7 +87,7 @@ const projects = [
     title: "E-Commerce Website - AN Buildind",
     description: "A responsive e-commerce platform with data visualization, user management, and inventory tracking features.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450",
+image: "./lovable-uploads/AN.jpg",
     demo: "#",
     code: "#"
   },
@@ -95,7 +95,7 @@ image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format
     title: "Social Networking - Winett",
     description: "A web application that allow users to share content such as videos pictures and messaging.",
     tech: ["React", "Firebase", "CSS Modules", "Recharts"],
-image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450",
+image: "./lovable-uploads/winett.jpg",
 
     demo: "#",
     code: "#"
