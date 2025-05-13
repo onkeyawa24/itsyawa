@@ -14,8 +14,8 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 animate-fade-up dark:text-white" style={{ animationDelay: "0.1s" }}>
             <span className="title-highlight">Onke Yawa</span>
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold text-theme-highlight mb-8 animate-fade-up dark:text-theme-accent" style={{ animationDelay: "0.2s" }}>
-            Junior Web Developer
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-700 mb-8 animate-fade-up dark:text-theme-accent" style={{ animationDelay: "0.2s" }}>
+            Cloud Developer
           </h2>
           <p className="text-lg text-foreground/80 max-w-2xl mb-10 animate-fade-up dark:text-white/80" style={{ animationDelay: "0.3s" }}>
             I build responsive, accessible web applications with modern 
@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center animate-fade-up md:justify-end" style={{ animationDelay: "0.5s" }}>
+        <div className="flex justify-center items-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
           <div className="w-[200px] h-[200px] rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
             <img 
               src="/lovable-uploads/f436337c-e48f-4216-9a38-6a758d738835.png" 
