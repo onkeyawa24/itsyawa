@@ -17,7 +17,7 @@ const Skills = () => {
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
                 Cloud Development
               </h3>
-              <div className="grid grid-cols-2 gap-4 bg-[#f1fcfc]">
+              <div className="grid grid-cols-2 gap-4">
                 {frontendSkills.map((skill) => (
                   <SkillCard key={skill.name} {...skill} />
                 ))}
@@ -29,7 +29,7 @@ const Skills = () => {
                 <span className="bg-theme-accent w-10 h-1 mr-3"></span>
                 Tools & Technologies
               </h3>
-              <div className="grid grid-cols-2 gap-4 bg-[#f1fcfc]">
+              <div className="grid grid-cols-2 gap-4">
                 {toolsSkills.map((skill) => (
                   <SkillCard key={skill.name} {...skill} />
                 ))}
@@ -42,7 +42,7 @@ const Skills = () => {
               <span className="bg-theme-accent w-10 h-1 mr-3"></span>
               Currently Learning
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-[#f1fcfc]">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {learningSkills.map((skill) => (
                 <SkillCard key={skill.name} {...skill} small />
               ))}
@@ -56,7 +56,7 @@ const Skills = () => {
 
 const SkillCard = ({ name, level, icon, small = false }) => {
   return (
-    <Card className={`bg-[#f1fcfc] border-none shadow-md hover:shadow-lg transition-shadow dark:bg-gray-800 ${small ? 'p-2' : 'p-3'}`}>
+    <Card className={`bg-[#ecfafa] border-none shadow-md hover:shadow-lg transition-shadow dark:bg-gray-800 ${small ? 'p-2' : 'p-3'}`}>
       <CardContent className={`flex items-center gap-3 p-0 ${small ? 'py-2' : 'py-3'}`}>
         <div className="bg-theme-bg p-2 rounded dark:bg-gray-700">
           {icon}
