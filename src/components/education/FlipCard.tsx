@@ -26,22 +26,22 @@ const FlipCard = ({ education }: { education: FormalEducation }) => {
         )}
       >
         {/* Front of card */}
-        <div className="absolute w-full h-full backface-hidden bg-white rounded-lg border border-border p-6 flex flex-col">
-          <div className="bg-theme-blue/10 text-theme-blue rounded-md px-3 py-1.5 text-sm self-start mb-4">
+        <div className="absolute w-full h-full backface-hidden bg-white dark:bg-gray-800 rounded-lg border border-border dark:border-gray-700 p-6 flex flex-col">
+          <div className="bg-theme-blue/10 text-theme-blue dark:bg-theme-blue/20 dark:text-white rounded-md px-3 py-1.5 text-sm self-start mb-4">
             {education.years}
           </div>
-          <h3 className="text-xl font-bold mb-2">{education.degree}</h3>
-          <p className="text-theme-light-blue">{education.institution}</p>
+          <h3 className="text-xl font-bold mb-2 dark:text-white">{education.degree}</h3>
+          <p className="text-theme-light-blue dark:text-gray-300">{education.institution}</p>
           
           {education.description && (
-            <p className="text-sm text-muted-foreground mt-3">
+            <p className="text-sm text-muted-foreground dark:text-gray-400 mt-3">
               {education.description}
             </p>
           )}
         </div>
         
         {/* Back of card */}
-        <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-theme-blue rounded-lg border border-border overflow-hidden">
+        <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-theme-blue dark:bg-gray-700 rounded-lg border border-border dark:border-gray-600 overflow-hidden">
           <img 
             src={education.logoPath} 
             alt={`${education.institution} logo`} 

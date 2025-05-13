@@ -12,20 +12,20 @@ const FormalEducationTab = () => {
         ))}
       </div>
 
-      <div className="bg-theme-bg rounded-lg p-6 border border-theme-accent/20">
-        <h3 className="text-xl font-bold mb-4">Key Achievements</h3>
+      <div className="bg-theme-bg dark:bg-gray-800 rounded-lg p-6 border border-theme-accent/20 dark:border-gray-700">
+        <h3 className="text-xl font-bold mb-4 dark:text-white">Key Achievements</h3>
         <ul className="space-y-3">
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span>Dean's List for Academic Excellence (3 consecutive semesters)</span>
+            <span className="dark:text-white">Dean's List for Academic Excellence (3 consecutive semesters)</span>
           </li>
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span>Best Final Year Project Award for "Web Application Framework Development"</span>
+            <span className="dark:text-white">Best Final Year Project Award for "Web Application Framework Development"</span>
           </li>
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span>Participated in national coding competition, ranked in top 10%</span>
+            <span className="dark:text-white">Participated in national coding competition, ranked in top 10%</span>
           </li>
         </ul>
       </div>
