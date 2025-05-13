@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className={`md:col-span-7 ${index % 2 === 1 ? "md:order-2" : ""}`}>
                   <div className="bg-white dark:bg-gray-700 p-2 rounded-lg shadow-lg">
                     <img 
-                      src="/lovable-uploads/f436337c-e48f-4216-9a38-6a758d738835.png" 
+                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450" 
                       alt={project.title} 
                       className="rounded-md object-cover w-full h-[250px]" 
                     />
