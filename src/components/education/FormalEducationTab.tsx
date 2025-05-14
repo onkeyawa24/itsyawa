@@ -17,15 +17,15 @@ const FormalEducationTab = () => {
         <ul className="space-y-3">
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span className="dark:text-white">Dean's List for Academic Excellence (3 consecutive semesters)</span>
+            <span className="dark:text-white">Won  1st place in Java development hackathon project (2017).</span>
           </li>
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span className="dark:text-white">Best Final Year Project Award for "Web Application Framework Development"</span>
+            <span className="dark:text-white">1st place in Standard bank inter-campus blockchain challenge (2018)."</span>
           </li>
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span className="dark:text-white">Participated in national coding competition, ranked in top 10%</span>
+            <span className="dark:text-white">Participated in IBM Big Data national coding competition, ranked 7th place (2018).</span>
           </li>
         </ul>
       </div>
