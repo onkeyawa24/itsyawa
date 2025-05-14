@@ -60,7 +60,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-transparent dark:bg-gray-900 text-white">
+    <section id="contact" className="bg-transparent dark:bg-gray-800 text-white">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">

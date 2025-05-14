@@ -6,7 +6,7 @@ import { Code, ExternalLink } from "lucide-react";
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-[#cceeee] dark:bg-gray-800">
+    <section id="projects" className="bg-[#cceeee] dark:bg-gray-900">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
