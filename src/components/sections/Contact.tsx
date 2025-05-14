@@ -60,7 +60,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-transparent text-white">
+    <section id="contact" className="bg-transparent dark:bg-gray-900 text-white">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
@@ -120,7 +120,7 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="bg-white/5 p-6 rounded-lg backdrop-blur-sm dark:bg-gray-700/50">
+            <div className="bg-white/5 p-6 rounded-lg backdrop-blur-sm dark:bg-gray-800/50">
               <form onSubmit={handleSubmit}>
                 <div className="space-y-4">
                   <div>

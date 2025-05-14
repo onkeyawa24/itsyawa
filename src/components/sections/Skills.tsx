@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-[#d9f0f0] dark:bg-transparent">
+    <section id="skills" className="bg-[#d9f0f0] dark:bg-gray-800">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
@@ -56,9 +56,9 @@ const Skills = () => {
 
 const SkillCard = ({ name, level, icon, small = false }) => {
   return (
-    <Card className={`bg-[#ecfafa] border-none shadow-md hover:shadow-lg transition-shadow dark:bg-gray-800 ${small ? 'p-2' : 'p-3'}`}>
+    <Card className={`bg-[#ecfafa] border-none shadow-md hover:shadow-lg transition-shadow dark:bg-gray-700 ${small ? 'p-2' : 'p-3'}`}>
       <CardContent className={`flex items-center gap-3 p-0 ${small ? 'py-2' : 'py-3'}`}>
-        <div className="bg-theme-bg p-2 rounded dark:bg-gray-700">
+        <div className="bg-theme-bg p-2 rounded dark:bg-gray-600">
           {icon}
         </div>
         <div>
