@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center items-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
-          <div className="w-[400px] h-[400px] rounded-lg overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
+          <div className="w-[500px] h-[500px] rounded-md overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
             <img 
               src="/lovable-uploads/f436337c-e48f-4216-9a38-6a758d738835.png" 
               alt="Onke Yawa" 
