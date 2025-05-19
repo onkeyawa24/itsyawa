@@ -64,7 +64,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium dark:text-white">Experience</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      2 years in Cloud Support role specialisng in Azure.
+                      2 years in Cloud Support role specialisng in Microsoft Azure.
                     </p>
                   </div>
                 </div>
