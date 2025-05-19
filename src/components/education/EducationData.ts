@@ -52,9 +52,9 @@ export const onlineCourses: OnlineCourse[] = [
   {
     title: "Generative AI: Prompt Engineering",
     provider: "IBM through Coursera",
-    date: "Mar 2025",
+    date: "May 2025",
     duration: "2 Weeks",
-    skills: ["Cloud Infrastructure", "Serverless Computing", "DevOps"]
+    skills: ["Prompt AI", "Machine Learning"]
   }
 ];
 
