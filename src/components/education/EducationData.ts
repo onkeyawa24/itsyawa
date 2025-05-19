@@ -36,18 +36,25 @@ export interface OnlineCourse {
 // Sample data for the courses and certificates 
 export const onlineCourses: OnlineCourse[] = [
   {
-    title: "--- No online courses yet ---.",
-    provider: "",
-    date: "",
-    duration: "",
-    skills: ["", ""]
+    title: "Introduction to Networking and Cloud Computing",
+    provider: "IBM through Coursera",
+    date: "Feb 2025",
+    duration: "2 Weeks",
+    skills: ["Cybersecurity", "Network Security", "Network Infrastructure"]
   },
   {
-    title: "",
-    provider: "",
-    date: "",
-    duration: "",
-    skills: ["", ""]
+    title: "Cloud Computing Foundations",
+    provider: "Duke University through Coursera",
+    date: "Mar 2025",
+    duration: "2 Weeks",
+    skills: ["Cloud Infrastructure", "Serverless Computing", "DevOps"]
+  },
+  {
+    title: "Generative AI: Prompt Engineering",
+    provider: "IBM through Coursera",
+    date: "Mar 2025",
+    duration: "2 Weeks",
+    skills: ["Cloud Infrastructure", "Serverless Computing", "DevOps"]
   }
 ];
 
