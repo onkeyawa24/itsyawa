@@ -53,16 +53,6 @@ const CertificatesTab = () => {
             </div>
           </CardContent>
         </Card>
-      <Button asChild className="dark:bg-theme-accent dark:text-white">
-              <a 
-                href="https://www.linkedin.com/in/onke-yawa/details/certifications/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                View All Certificates
-              </a>
-            </Button>
       ))}
     </div>
   );
