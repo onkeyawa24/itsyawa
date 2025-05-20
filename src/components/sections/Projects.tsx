@@ -93,7 +93,7 @@ image: "./lovable-uploads/AN.jpg",
   },
   {
     title: "Social Networking - Winett",
-    description: "A web application that allow users to share content such as videos pictures and messaging.",
+    description: "A web application that allows users to share content such as videos pictures and messaging.",
     tech: ["PHP", "SQL", "Bootstrap", "API"],
 image: "./lovable-uploads/winett.PNG",
 
