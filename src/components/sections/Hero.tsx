@@ -27,7 +27,7 @@ const Hero = () => {
               <a href="#projects">View My Work</a>
             </Button>
             <Button variant="outline" size="lg" asChild className="dark:bg-transparent dark:text-white dark:hover:bg-gray-800">
-              <a href="#contact">Contact Me</a>
+              <a href="#contact">Get In Touch</a>
             </Button>
           </div>
         </div>
