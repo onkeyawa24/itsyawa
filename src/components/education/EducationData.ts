@@ -10,7 +10,7 @@ export interface FormalEducation {
 // Sample data for the formal education
 export const formalEducation: FormalEducation[] = [
   {
-    degree: "BSc Computer Science",
+    degree: "BSc. in Computer Science",
     institution: "Walter Sisulu University",
     years: "2016 - 2019",
     description: "Specialized in web development and artificial intelligence.",
