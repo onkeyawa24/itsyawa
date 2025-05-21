@@ -39,7 +39,7 @@ export const onlineCourses: OnlineCourse[] = [
     title: "Introduction to Networking and Cloud Computing",
     provider: "IBM through Coursera",
     date: "Feb 2025",
-    duration: "2 Weeks",
+    duration: "1 Weeks",
     skills: ["Cybersecurity", "Network Security", "Network Infrastructure"]
   },
   {
