@@ -101,7 +101,7 @@ image: "./lovable-uploads/winett.PNG",
     code: "https://github.com/onkeyawa24/winett"
   },
   {
-    title: "E-Commerce - Thengastore",
+    title: "Thengastore | E-commerce",
     description: "An E-commerce website for ordering and deliverring food and other products to customers.",
     tech: ["JavaScript", "HTML", "CSS", "SQL"],
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450",
