@@ -17,7 +17,7 @@ const FormalEducationTab = () => {
         <ul className="space-y-3">
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span className="dark:text-white">Won  1st place in Java development hackathon project (2017).</span>
+            <span className="dark:text-white">Won 1st place in Java development hackathon project (2017).</span>
           </li>
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
