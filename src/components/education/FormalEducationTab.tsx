@@ -21,7 +21,7 @@ const FormalEducationTab = () => {
           </li>
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
-            <span className="dark:text-white">1st place in Standard bank inter-campus blockchain challenge (2018)."</span>
+            <span className="dark:text-white">1st place in Standard bank inter-campus (WSU) blockchain challenge (2018)."</span>
           </li>
           <li className="flex gap-2">
             <span className="text-theme-accent font-bold">•</span>
