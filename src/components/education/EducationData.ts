@@ -20,7 +20,7 @@ export const formalEducation: FormalEducation[] = [
     degree: "National Senior Certificate",
     institution: "Manzomthombo Secondary School",
     years: "2010 - 2012",
-    description: "Advanced Mathematics and Computer Science program.",
+    description: "Grade 12",
     logoPath: "/lovable-uploads/manzo.jpg"
   }
 ];
