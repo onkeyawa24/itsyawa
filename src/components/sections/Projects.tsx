@@ -46,7 +46,7 @@ const Projects = () => {
                     <Button variant="outline" size="sm" asChild className="dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600">
                       <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                         <ExternalLink size={16} />
-                        Live Demo
+                        Demo
                       </a>
                     </Button>
                     <Button variant="outline" size="sm" asChild className="dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600">
