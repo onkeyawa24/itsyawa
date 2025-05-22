@@ -32,7 +32,7 @@ const About = () => {
               <p className="text-gray-700 mb-4 w-full text-justify dark:text-gray-200">
                 I'm <strong>Onke Yawa</strong>, a passionate software and cloud developer with a strong foundation in computer science and a growing footprint in cloud technology and IT support. 
                 I hold a Bachelor of Science in Computer Science, along with certifications in Microsoft Azure Fundamentals and Administration. 
-                These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure.. 
+                These qualifications have helped me build a career that connects software development, data management, and cloud infrastructure. 
               </p>
               <p className="text-gray-700 mb-4 w-full text-justify dark:text-gray-200">
                 My experience spans web and app development, cloud migrations, and end-to-end IT support, 
