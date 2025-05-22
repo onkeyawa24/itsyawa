@@ -40,7 +40,7 @@ const About = () => {
                 and creating impactful Power BI dashboards.
               </p>
               <p className="text-gray-700 w-full text-justify dark:text-gray-200">
-                Whether it's coding in PHP and JavaScript or fine-tuning SQL servers, 
+                Whether it's building a websites, Apps or fine-tuning SQL servers, 
                 I enjoy turning complex problems into practical, scalable solutions.
               </p>
             </div>
