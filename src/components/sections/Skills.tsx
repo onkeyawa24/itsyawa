@@ -83,7 +83,7 @@ const frontendSkills = [
 
 const toolsSkills = [
   { name: "Git & GitHub", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">G</div> },
-  { name: "VS Code", level: "Advanced", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">VS</div> },
+  { name: "VS Code", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">VS</div> },
   { name: "npm/yarn", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">N</div> },
   { name: "PowerShell", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">P</div> },
   { name: "Terminal", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">T</div> },
