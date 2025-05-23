@@ -12,7 +12,7 @@ const highlights = [
     description: "I thrive in collaborative environments and value open communication."
   },
   {
-    title: "Continuous Learner",
+    title: "Continous Learner",
     description: "I'm dedicated to improving my skills and staying up-to-date with industry trends."
   }
 ];
