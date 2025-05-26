@@ -38,7 +38,7 @@ const Education = () => {
                 className="flex items-center gap-2 text-theme-blue dark:text-white dark:data-[state=active]:bg-gray-700 data-[state=active]:bg-white"
               >
                 <School className="h-4 w-4" />
-                <span className="hidden sm:inline">Certifications</span>
+                <span className="hidden sm:inline">Certification</span>
                 <span className="sm:hidden">Certs</span>
               </TabsTrigger>
             </TabsList>
