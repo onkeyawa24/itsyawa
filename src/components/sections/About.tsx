@@ -4,12 +4,12 @@ import { User, Book, Briefcase } from "lucide-react";
 
 const highlights = [
   {
-    title: "Problem Solver",
-    description: "I enjoy tackling complex challenges and finding elegant solutions through code."
-  },
-  {
     title: "Team Player",
     description: "I thrive in collaborative environments and value open communication."
+  },
+  {
+    title: "Problem Solver",
+    description: "I enjoy tackling complex challenges and finding elegant solutions through code."
   },
   {
     title: "Continous Learner",
