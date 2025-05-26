@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-theme-accent">/&gt;</span>
             </a>
             <p className="text-sm text-gray-400 mt-2">
-              © {new Date().getFullYear()} Onke Yawa. All rights reserved.
+              © {new Date().getFullYear()} itsyawa. All rights reserved.
             </p>
           </div>
           
