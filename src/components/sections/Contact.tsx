@@ -69,7 +69,7 @@ const Contact = () => {
                 Get In Touch
               </h2>
               <p className="mb-8 text-theme-highlight dark:text-gray-300">
-                Have a question or want to work together? Feel free to contact me!
+                Have a question or want us to work together? Feel free to contact me!
               </p>
               
               <div className="space-y-6">
