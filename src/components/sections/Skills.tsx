@@ -72,7 +72,7 @@ const SkillCard = ({ name, level, icon, small = false }) => {
 
 const frontendSkills = [
   { name: "MS Azure", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">A</div> },
-  { name: "Active Directory", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">AD</div> },
+  { name: "Power BI", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">AD</div> },
   { name: "Cloud Migration", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">CM</div> },
   { name: "Cloud Networking", level: "Advanced", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">CN</div> },
   { name: "SQL & SQL Server", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">S</div> },
