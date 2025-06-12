@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <section 
       id="hero" 
-      className="min-h-screen flex items-center relative bg-[#b9d5d5] dark:bg-gray-900"
+      className="min-h-screen flex items-center relative bg-[#0a0a0a] dark:bg-gray-900"
       style={{
-        backgroundImage: `url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')`,
+        backgroundImage: `url('/lovable-uploads/06ca4fbd-8dc0-41d2-9465-458e0e86203d.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
