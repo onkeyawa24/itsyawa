@@ -1,9 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
-import { Github, Linkedin, Mail, MessageSquare, Twitter, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MessageSquare, Twitter, Phone, MapPin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import emailjs from 'emailjs-com';
 
@@ -90,6 +89,16 @@ const Contact = () => {
                   <div>
                     <h3 className="font-medium">Cell</h3>
                     <p className="text-sm text-gray-300">+27725744363</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center gap-4">
+                  <div className="bg-white/10 p-3 rounded-full">
+                    <MapPin size={20} className="text-theme-accent" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium">Location</h3>
+                    <p className="text-sm text-gray-300">Cape Town, South Africa</p>
                   </div>
                 </div>
                 
