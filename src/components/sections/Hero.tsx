@@ -6,16 +6,16 @@ const Hero = () => {
   return (
     <section 
       id="hero" 
-      className="min-h-screen flex items-center relative bg-[#0a0a0a] dark:bg-gray-900"
+      className="min-h-screen flex items-center relative bg-background dark:bg-[#0a0a0a]"
       style={{
-        backgroundImage: `url('/lovable-uploads/06ca4fbd-8dc0-41d2-9465-458e0e86203d.png')`,
+        backgroundImage: `var(--hero-bg-image)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
       }}
     >
-      {/* 20% overlay */}
-      <div className="absolute inset-0 bg-black/20 z-0" />
+      {/* 20% overlay - only in dark mode */}
+      <div className="absolute inset-0 hidden dark:block bg-black/20 z-0" />
       
       <div className="absolute top-0 right-0 w-1/2 h-screen bg-theme-highlight/10 -z-10 rounded-bl-[30%] dark:bg-gray-800/20" />
       <div className="section-container grid grid-cols-1 md:grid-cols-2 gap-8 items-center relative z-10">
