@@ -151,7 +151,7 @@ const Contact = () => {
                   
                   <div>
                     <label htmlFor="email" className="block mb-1 text-sm">
-                      Email
+                      Email (Recommended) 
                     </label>
                     <Input
                       id="email"
