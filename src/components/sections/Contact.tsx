@@ -125,14 +125,6 @@ const Contact = () => {
                       >
                         <Linkedin size={20} />
                       </a>
-                      <a 
-                        href="https://www.x.com/onkeyawa" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="hover:text-theme-accent transition-colors"
-                      >
-                        <Twitter size={20} />
-                      </a>
                     </div>
                   </div>
                 </div>
