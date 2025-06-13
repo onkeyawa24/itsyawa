@@ -73,12 +73,12 @@ const SkillCard = ({ name, level, icon, small = false }) => {
 const frontendSkills = [
   { name: "SQL & SQL Server", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">S</div> },
   { name: "Power BI", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">PB</div> },
+  { name: "Azure Data Factory", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">DF</div> },
+  { name: "Azure Synapse Analytics", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">SA</div> },
   { name: "MS Power Automate", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">PA</div> },
-  { name: "MS Azure", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">A</div> },
   { name: "Cloud Migration", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">CM</div> },
   { name: "Cloud Networking", level: "Advanced", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">CN</div> },
   { name: "Networking", level: "Intermediate", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">N</div> },
-  { name: "MS Intune", level: "Advance", icon: <div className="w-8 h-8 bg-theme-accent/20 rounded-full flex items-center justify-center text-theme-blue font-bold">I</div> },
 ];
 
 const toolsSkills = [
